@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`${styles.ContactheroBg}  flex py-[200px] justify-start items-center`}
+      className={`${styles.ContactheroBg} relative flex py-[200px] justify-start items-center`}
     >
       <div className="md:flex w-full px-4 xl:w-[80%] mt-[100px]  mx-auto gap-6">
         <div className="w-full bg-[#B5986D] py-14 px-14 rounded-xl md:w-[50%]">
@@ -74,7 +74,7 @@ const Contact = () => {
           </div>
         </div>
         <div className={`${styles.subcBg} w-full px-6 md:w-[50%]`}>
-          <div className="sm:w-[80%] mx-auto py-20">
+          {/* <div className="sm:w-[80%] mx-auto py-20">
             <h4 className="text-[40px]  leading-[45px] md:text-[50px] md:leading-[60px]">
               Hind & PB Lounge
             </h4>
@@ -100,7 +100,7 @@ const Contact = () => {
               Land Line - 01162545892
             </p>
             <p className="text-[20px]  text-white">Mobile -  07466970736</p>
-          </div>
+          </div> */}
         </div>
       </div>
       <Toaster />

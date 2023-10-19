@@ -268,7 +268,7 @@ body {
 }
 
 .fbg {
-  background-image: url("../../public/newContactbg.png");
+  background-image: url("../../public/images/bgforopeninghours.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -294,4 +294,12 @@ body {
 }
 .parent:hover .child{
   display: block;
+}
+
+.formBg{
+  background-image: url("../../public/images/foxmainhero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }

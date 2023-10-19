@@ -328,10 +328,10 @@ const HomePageMenu = () => {
           </div>
         </div>
         <div className="w-full   md:w-[70%] h-[100%]">
-          <PhotoView src="./HomePageMenu.png">
+          <PhotoView src="./images/menuright.png">
             <img
               className=" w-[969px] sm:h-[821px]"
-              src="./HomePageMenu.png"
+              src="./images/menuright.png"
               alt=""
             />
           </PhotoView>

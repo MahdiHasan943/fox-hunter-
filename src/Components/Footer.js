@@ -89,12 +89,12 @@ const Footer = () => {
 
                 <div className="">
 
-                  <p>10:00 — 23:00</p>
-                  <p>10:00 — 23:00</p>
-                  <p>10:00 — 23:00</p>
-                  <p>10:00 — 04:00</p>
-                  <p>10:00 — 04:00</p>
-                  <p>10:00 — 04:00</p>
+                  <p>7:00 — 0:00</p>
+                  <p>7:00 — 0:00</p>
+                  <p>7:00 — 0:00</p>
+                  <p>7:00 — 4:00</p>
+                  <p>7:00 — 4:00</p>
+                  <p>9:00 — 4:00</p>
                   <p> 12:00 — 23:00</p>
                   
                 </div>
@@ -110,7 +110,8 @@ const Footer = () => {
         <div className="  text-white pb-4 pt-8  px-4 sm:px-[60px]">
           <div className="lg:flex mt-[-300px] justify-center">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.6417318358876!2d-1.1274621230775388!3d52.63031812805569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877612323e18b85%3A0x443b8bc93e58d7ee!2sPassion%20Blend%20%26%20HindBar!5e0!3m2!1sen!2suk!4v1684181706068!5m2!1sen!2suk"
+              // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.6417318358876!2d-1.1274621230775388!3d52.63031812805569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877612323e18b85%3A0x443b8bc93e58d7ee!2sPassion%20Blend%20%26%20HindBar!5e0!3m2!1sen!2suk!4v1684181706068!5m2!1sen!2suk"
+              src="/../images/foxMap.png"
               className="w-full h-[450px]  sm:w-[628px] sm:h-[570px] "
               // style="border:0;"
               allowfullscreen=""
@@ -119,7 +120,7 @@ const Footer = () => {
             ></iframe>
             <img
               className="lg:mt-[100px] lg:ml-[-180px] h-[330px]"
-              src="/../box.png"
+              src="/../images/foxhutboxaboveMap.png"
               alt=""
             />
           </div>
@@ -131,8 +132,8 @@ const Footer = () => {
                   className="dark:text-white font-semibold text-[50px] sm:text-[72px]  footerLogo  text-black"
                   href=""
                 >
-                  PASSION <br />
-                  BLEND BAR
+                   FOX HUT <br />
+                   BAR
                 </a>
               </div>
 
@@ -175,7 +176,7 @@ const Footer = () => {
                 <Popover.Button className="dark:text-white font-bold text-black  sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px]   text-[15px] sm:text-[20px]  px-8 sm:px-14 py-7 rounded-2xl bookNow  outline-none focus:outline-none ">
                   Reserve Seating
                 </Popover.Button>
-                <Popover.Panel className=" dark:bg-[#0b1517] bg-black absolute py-10 left-0 sm:left-[20%] top-[15%]  md:top-[30%] lg:left-[30%] 2xl:left-[40%]  lg:top-[-10%] z-[10000] ">
+                <Popover.Panel className="formBg rounded-md absolute py-10 left-0 sm:left-[20%] top-[15%]  md:top-[30%] lg:left-[30%] 2xl:left-[40%]  lg:top-[-10%] z-[10000] ">
                   <div className="relative">
                     <Popover.Button className="focus:border-none btn-border-none  outline-none focus:outline-none border-none">
                       <BsXLg className="absolute right-10 top-10 text-white text-end text-[25px]"></BsXLg>
@@ -193,7 +194,7 @@ const Footer = () => {
                         <div className="flex px-6 py-10  items-center gap-20">
                           <input
                             type="text"
-                            className="w-full py-6 px-5 border-[1px] border-white bg-black"
+                            className="w-full py-6 px-5 border-[1px] border-white placeholder:text-white bg-transparent"
                             placeholder="First Name"
                             name="user_name"
 
@@ -203,7 +204,7 @@ const Footer = () => {
                           />
                           <input
                             type="text"
-                            className="w-full py-6 px-5 border-[1px] border-white bg-black"
+                            className="w-full py-6 px-5 border-[1px] border-white placeholder:text-white bg-transparent"
                             name="user_name"
 
                             placeholder="Last Name"
@@ -213,7 +214,7 @@ const Footer = () => {
                         <div className="px-6">
                           <input
                             type="email"
-                            className="w-full py-6 px-5 border-[1px] border-white bg-black"
+                            className="w-full py-6 px-5 border-[1px] border-white placeholder:text-white bg-transparent"
                             name="user_email"
 
                             placeholder="Email"
@@ -221,7 +222,7 @@ const Footer = () => {
                           />
                           <input
                             type="tel"
-                            className="w-full my-10 py-6 px-5 border-[1px] border-white bg-black"
+                            className="w-full my-10 py-6 px-5 border-[1px] border-white placeholder:text-white bg-transparent"
                             name="phone"
                             placeholder="Phone Number"
                             id=""
@@ -230,13 +231,13 @@ const Footer = () => {
                         <div className="flex px-6   items-center gap-20">
                           <input
                             type="date"
-                            className="w-full py-6 px-5 border-[1px] border-white bg-black"
+                            className="w-full py-6 px-5 border-[1px] border-white placeholder:text-white bg-transparent"
                             name="date"
                             id=""
                           />
                           <input
                             type="time"
-                            className="w-full py-6 px-5 border-[1px] border-white bg-black"
+                            className="w-full py-6 px-5 border-[1px] border-white placeholder:text-white bg-transparent"
                             name="time"
                             id=""
                           />
@@ -244,7 +245,7 @@ const Footer = () => {
                         <div className="px-6 text-center">
                           <input
                             type="number"
-                            className="w-full my-10 py-6 px-5 border-[1px] border-white bg-black"
+                            className="w-full my-10 py-6 px-5 border-[1px] border-white  placeholder:text-white bg-transparent"
                             name="people"
                             placeholder="Number of Persons"
                             id=""
