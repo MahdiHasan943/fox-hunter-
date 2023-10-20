@@ -7,8 +7,18 @@ import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 import NewSlide from "@/Components/NewSlide";
 import CopyWineSlide from "@/Components/imageSlide/CopyWineSlide";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 export default function Home() {
+    const { systemTheme, theme, setTheme } = useTheme();
+    const [mounted, setMounted] = useState(false);
+    useEffect(() => {
+      setMounted(true);
+    }, []);
+  
+    if (!mounted) return null;
+    const currentTheme = theme === "system" ? systemTheme : theme;
   return (
     <>
       {/* 1 */}
@@ -84,10 +94,12 @@ export default function Home() {
           </div>
       <HomePageMenu></HomePageMenu>
 
-      
-      <img className="px-4 sm:px-16 lg:ml-[50px]" src="/images/foxbutbarrntertainmentrooms.png" alt="" />
-      <img className="px-4 sm:px-16 lg:ml-[50px]" src="/images/EntertainmentRooms.png" alt="" />
-      <div className="overflow-hidden">
+      {
+        currentTheme === 'dark'?      <img className="px-4 sm:px-16 mb-10 lg:ml-[50px]" src="/images/foxbutbarrntertainmentrooms.png" alt="" />
+:          <img className="px-4 mb-10 sm:px-16 lg:ml-[50px]" src="/images/EntertainmentRooms.png" alt="" />
+
+      }
+      <div className="overflow-hidden sm:w-[95%] mx-auto">
       <CopyWineSlide />
 
       </div>
