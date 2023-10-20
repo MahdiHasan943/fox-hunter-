@@ -33,12 +33,12 @@ const Reservation = () => {
 
 
   return (
-    <div className="pt-20 w-full ">
+    <div className="pt-20 w-full b">
       <h2 className="dark:text-white text-center text-black text-[36px]  py-10  sm:text-[70px] md:leading-[90px] font-bold">
         Reservation
       </h2>
 
-      <div className="ReservationBg ">
+      <div className="ReservationBg bg-[#000]">
         <div className=" py-20 sm:px-20">
           <h4 className="text-white  text-center text-[26px]  pb-4 pt-8  sm:text-[40px] md:leading-[80px] font-bold">
             Welcome your visit
