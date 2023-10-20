@@ -6,6 +6,7 @@ import ImageSlide from "@/Components/imageSlide/ImageSlide";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 import NewSlide from "@/Components/NewSlide";
+import CopyWineSlide from "@/Components/imageSlide/copyWineSlide";
 
 export default function Home() {
   return (
@@ -85,8 +86,13 @@ export default function Home() {
 
       
       <img className="px-4 sm:px-16 lg:ml-[50px]" src="/images/foxbutbarrntertainmentrooms.png" alt="" />
+      <img className="px-4 sm:px-16 lg:ml-[50px]" src="/images/EntertainmentRooms.png" alt="" />
+      <div className="overflow-hidden">
+      <CopyWineSlide />
 
-<NewSlide/>
+      </div>
+    
+{/* <NewSlide/> */}
       {/* Our Event Gallery */}
       <div
         id="event"
