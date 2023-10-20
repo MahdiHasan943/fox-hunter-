@@ -84,7 +84,7 @@ export default function Home() {
       <HomePageMenu></HomePageMenu>
 
       
-      <img className="px-4 sm:px-16" src="/images/foxbutbarrntertainmentrooms.png" alt="" />
+      <img className="px-4 sm:px-16 lg:ml-[50px]" src="/images/foxbutbarrntertainmentrooms.png" alt="" />
 
 <NewSlide/>
       {/* Our Event Gallery */}

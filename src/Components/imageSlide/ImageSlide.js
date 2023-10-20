@@ -112,7 +112,7 @@ const ImageSlide = () => {
         {
           SlidesImages.map(slidesImage=> <SwiperSlide>
              <PhotoProvider>
-            <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
+            <div className="flex justify-between lg:w-[95%] mx-auto   gap-4   sm:gap-8 items-center">
               <div className="">
                   <PhotoView 
               

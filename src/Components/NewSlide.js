@@ -59,7 +59,7 @@ const NewSlide = () => {
       >
         {
           SlidesImages.map(slidesImage=> <SwiperSlide>
-              <div className="flex justify-between w-full    py-16 gap-4">
+              <div className="flex justify-between lg:w-[95%] mx-auto  py-16 gap-4">
                   <img className="h-[250px] w-full sm:w-[385px]  sm:h-[380px] lg:h-[800px]" src={slidesImage?.imgL} alt="" />
                   <div className="relative w-full min-w-[200px] lg:w-[900px]">
                       <img className="h-[250px] w-full lg:w-[900px] sm:h-[380px] lg:h-[800px]" src={slidesImage?.imgM} alt="" />
