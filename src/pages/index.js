@@ -43,7 +43,7 @@ export default function Home() {
           <h2 className="underline underline-offset-4 font-popping text-[48px] font-bold decoration-white text-center">
             About Us
           </h2>
-          <div className="w-full px-6 grid grid-cols-1 gap-20 lg:grid-cols-2 lg:mt-20 lg:px-10">
+          <div className="w-full mt-6 px-6 grid grid-cols-1 gap-20 lg:grid-cols-2 lg:mt-20 lg:px-10">
             <p className="font-popping  leading-[22px] tracking-wider sm:w-[498px] mx-auto text-[16px] text-[#fff]">
               Right opposite Leicester’s main train station, Hind & PB Lounge is
               a gastro pub fit for breakfast, lunch and dinner. On London Road,
