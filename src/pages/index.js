@@ -6,7 +6,7 @@ import ImageSlide from "@/Components/imageSlide/ImageSlide";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 import NewSlide from "@/Components/NewSlide";
-import CopyWineSlide from "@/Components/imageSlide/copyWineSlide";
+import CopyWineSlide from "@/Components/imageSlide/CopyWineSlide";
 
 export default function Home() {
   return (

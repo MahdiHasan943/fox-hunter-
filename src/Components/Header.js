@@ -60,10 +60,17 @@ function Header() {
           >
             <li className=" nav__item item">Home</li>
           </Link>
-
+          <Link href={'/Menu'}
+           className={`${
+            router.pathname === "/Menu"
+              ? "text-[#b1935e] nav__link"
+              : "nav__link text-white	"
+              } `}
+              onClick={navToggle}
+          >
           <li className="nav__item menu hover:text-[#b1935e]">
             Menu
-            <ul className=" subMenu">
+            {/* <ul className=" subMenu">
               <Link
                 className={`${
                   router.pathname === "/Menu/GASTRO"
@@ -92,9 +99,9 @@ function Header() {
               >
                 <li className="text-center nav__item itmeD">CONTINENTAL</li>
               </Link>
-            </ul>
+            </ul> */}
           </li>
-          {/* </Link> */}
+          </Link> 
 
           <Link
             className={`${

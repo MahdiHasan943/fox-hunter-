@@ -7,6 +7,7 @@ const CopyWineSlide = () => {
         dots: true,
         infinite: true,
         speed: 500,
+
         lazyLoad: 'progressive',
     
         slidesToShow: 3,
@@ -15,12 +16,12 @@ const CopyWineSlide = () => {
         arrows: true,  
         nextArrow: (
           <div>
-            <div className="next-slick-arrow absolute z-50 bg-[red]"> ⫸ </div>
+            <div className="next-slick-arrow "> ⫸ </div>
           </div>
         ),
         prevArrow: (
           <div>
-            <div className="prev-slick-arrow absolute z-50"> ⫷ </div>
+            <div className="prev-slick-arrow "> ⫷ </div>
           </div>
         ),
     
@@ -62,8 +63,10 @@ const CopyWineSlide = () => {
       const arrowRef = useRef(null);
   
     return (
-        <div className="overflow-hidden">
-              <Slider ref={arrowRef} {...settings}>
+              
+
+        
+              <Slider ref={arrowRef} {...settings} >
         <div className="      h-[380px] lg:h-[750px] projectOne ">   
               <img
                 className="w-full    mx-auto  h-[380px] lg:h-[750px] "
@@ -94,7 +97,6 @@ const CopyWineSlide = () => {
         </div>
        
       </Slider>
-    </div>
     );
 };
 
