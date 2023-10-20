@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { BiSun,BiMoon } from "react-icons/bi";
+
 function Header() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -134,22 +136,12 @@ function Header() {
           <div className="flex justify-center px-6">
           {currentTheme === "dark" ? (
             <button className="" onClick={() => setTheme("light")}>
-            
-              <img
-               
-                className="origin-center hover:opacity-[0.8] delay-300 sm:hover:rotate-[-100deg] 	 w-[40px] h-[40px]"
-                src="/../moon.svg"
-                alt=""
-              />
+            <BiMoon className="text-[24px]"/>
+              
             </button>
           ) : (
             <button className="" onClick={() => setTheme("dark")}>
-              <img
-                className=" sm:hover:motion-safe:animate-spin delay-300  text-[fd6c15] bg-[fd6c15] w-[40px] h-[40px]"
-                  src="/../sun.svg"
-                 
-                alt=""
-              />
+            <BiSun className="text-[24px]"/>
             </button>
           )}
         </div>

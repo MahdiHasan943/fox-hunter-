@@ -71,7 +71,7 @@ const NewSlide = () => {
           <p className=" text-white text-[14px] sm:text-[36px] sm:my-8">
             Drinks & Cocktails
           </p>
-          <p className="hidden sm:block text-[14px] sm:text-[36px]  text-white  my-8">
+          <p className="hidden sm:block text-[14px] sm:text-[18px]  text-white  my-8">
             We offer variety of deals throughout the week at fox hut <br />
 bar. To be the first to know follow us on social media.
           </p>

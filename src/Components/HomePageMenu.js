@@ -10,209 +10,232 @@ const HomePageMenu = () => {
   const menuCards = [
     {
       id: "1",
-      title: "Grilled Fish",
+      title: "Pub Classics",
 
-      p1Title: "Grilled Tilapia",
-      p1Text:
-        "serve with African spiced fish sauce,  salad, and plantain or potato wedges ",
+      p1Title: "Sirloin Steak",
+      p1Text:"with hand cut chips grilled tomato and  peppercorn sauce ",
       p1Price: "",
 
-      p2Title: " Super Grilled Tilapia",
+      p2Title: " Fox Hut Homemade Beef Burger",
       p2Text:
-        " Served with African spiced Fish sauce,        salad and plantain or pota ",
+        "lettuce, tomato, onion, cheese, bacon,  mayo, topped with pickleand accompanied  with homemade hand cut chips ",
       p2Price: " ",
 
-      p3Title: "  Cod Fish",
+      p3Title: " Classic Beef Burger",
       p3Text:
-        " Beer battered fish with Chips, pea and        homemade tartar sauce",
+        " lettuce, tomato, onion, ketchup, homemade  chips",
       p3Price: " ",
 
-      p4Title: "",
-      p4Text: " ",
+      p4Title: "Classic Salmon",
+      p4Text: "with vegetables ",
       p4Price: " ",
+      
+      p5Title: "Pan Fried Sausage and Mash",
+      p5Text:
+        "sausage, fried onion, mash potatoes and  gravy",
+        p6Title: "Half Grilled Chicken",
+        p6Text: " serves with hand cut chips or salad.",
     },
     {
       id: "2",
-      title: "Breakfast",
+      title: "Continental",
 
-      p1Title: "Full English",
+      p1Title: "Jollof Rice with Plantain & Salad (opt)",
       p1Text:
-        "Two Pork sausages, bacon tomato beans, mushrooms and eggs served with a side of toast",
+        "chicken, assorted meat, fish",
       p1Price: "",
 
-      p2Title: " Vegetarian Breakfast",
-      p2Text:
-        " Eggs, mushrooms, tomato, fresh made hash brown and beans served with a side of toast. ",
+      p2Title: " Student Jollof Rice with Chicken",
+      
+      // p2Text:
+      //   " Eggs, mushrooms, tomato, fresh made hash brown and beans served with a side of toast. ",
       p2Price: " ",
 
-      p3Title: "  Eggs and Toast",
-      p3Text: " Served with your choice of fried, scrambled or poached.",
+      p3Title: "  African Spiced Chicken Suya",
+      p3Text: " ",
       p3Price: " ",
 
-      p4Title: "All Day Full English",
+      p4Title: "African Spiced Beef Suya",
       p4Text:
-        " pork sausages, bacon, tomato, beans, mushrooms and eggs served with a side of toast.",
+        "",
       p4Price: " ",
+      p5Title:"African Spiced Beef Suya Kebab",
+      p5Text:""
+      // "sausage, fried onion, mash potatoes and  gravy" 
+      ,
+      p6Title: "On Bone Spice Grilled Tilapia Fish",
+      p6Text: " with salad, plantain, or potato wedges  and spicy fish sauce.",
+
     },
     {
       id: "3",
-      title: "Lunch",
+      title: "Pizzas",
 
-      p1Title: "Club Sandwich",
-      p1Text: "Chicken, bacon lettuce and tomato with mayo",
+      p1Title: "Fox Hut Pizza BBQ",
+      p1Text: "BBQ base, chicken, beef, mushroom,  red onion, cheese, olives",
       p1Price: "",
 
-      p2Title: "BLT",
-      p2Text: " Chicken, bacon lettuce and tomato with mayo ",
+      p2Title: "Hawaii Pizza",
+      p2Text: " tomato base, pineapple, ham, cheese",
       p2Price: " ",
 
-      p3Title: " Tuna Melt",
+      p3Title: " Margarita Pizza",
       p3Text:
-        " Grilled bacon with lettuce and tomato in a thick cut Sandwich with mayo",
+        " tomato base and cheese",
       p3Price: " ",
 
-      p4Title: "Wraps",
-      p4Text: " Roasted vegetable wrap dressed in basil Chicken wrap",
+      p4Title: "Pepperoni Pizza",
+      p4Text: " tomato base, pepperoni, jalapeno, red  anion, cheese",
       p4Price: " ",
 
-      p5Title: "Sandwiches",
+      p5Title: "Vegetarian Pizza",
       p5Text:
-        "Sausage and onion or Bacon sandwich. All served with a choice homemade hand cut chips",
+        "tomato base, mushrooms, peppers,    sweetcorn, red onion, olives,    cheese",
       p5Price: " ",
     },
     {
       id: "4",
-      title: "Grilled Meat",
+      title: " Breakfast",
 
-      p1Title: "Grilled Steak",
-      p1Text: "Served with bbq sauce, salad, and homemade hand cut chips",
+      p1Title: "FULL English Breakfast",
+      p1Text: "pork sausage, bacon, tomato, baked beans, mushrooms, and eggs with side toast",
       p1Price: "",
 
-      p2Title: " Grilled Peri Peri Chicken",
-      p2Text: " Served with peri-peri sauce, homemade hand cut Chips or Salad",
+      p2Title: "Veggie Breakfast",
+      p2Text: "eggs, mushrooms, tomato and baked beans with toast",
       p2Price: " ",
 
-      p3Title: "  Grilled Pork Ribs",
-      p3Text: " Served with bbq sauce, and Salad",
+      p3Title: " Egg on Toast (opt)",
+      p3Text: "fried, poached, scrambled",
       p3Price: " ",
 
-      p4Title: "Grilled Lamb Ribs",
-      p4Text: " Served with bbq sauce, and Salad",
+      p4Title: "GAdvocado on Toast (V)",
+      p4Text: " with garnish",
       p4Price: " ",
 
-      p5Title: "Grilled Homemade Beef Burger",
+      p5Title: "All Day Breakfast",
       p5Text:
-        " Served in toasted brioche burn with lettuce, mayonnaise, tomato, onion and side hand cut chips",
+        " pork sausage, bacon, tomato, baked beans, mushrooms and eggs with side toast",
       p5Price: " ",
 
-      p6Title: "Grilled Chicken Burger",
-      p6Text: "  Served in burn with lettuce mayonnaise, tomato .",
-      p6Price: " ",
+      // p6Title: "Grilled Chicken Burger",
+      // p6Text: "  Served in burn with lettuce mayonnaise, tomato .",
+      // p6Price: " ",
     },
     {
       id: "5",
-      title: "Mains",
+      title: "Dessert",
 
-      p1Title: "Spicy Chicken wings",
-      p1Text:
-        "Served with smoky/chilli mayo and French fries (GF) Homemade pie of the Day. Our freshly made amazing pies served with creamy mash potatoes, steamed veg and homemade gravy.",
+      p1Title: "Flavoured Ice Cream",
+      p1Text:""
+        ,
       p1Price: "",
 
-      p2Title: "Traditional Fish and Chips",
-      p2Text: "Served with tartar sauce and buttery mushy peas ",
+      p2Title: "Cheesecake ",
+      p2Text: "",
       p2Price: " ",
 
-      p3Title: "  Beef Burger",
+      p3Title: "  Baileys Bread and Butter Pudding",
       p3Text:
-        " Homemade beef patty served in grilled brioche bun with fresh leaf, tomatoes ,mayo, ketchup and French fries PB Beef Burger",
+        " ",
       p3Price: " ",
 
-      p4Title: "Chicken burger",
+      p4Title: "Sticky Toffee Pudding",
       p4Text:
-        " Marinated chicken breast served in brioche bun, Fresh leaf, tomatoes, mayo, ketchup and french fries",
+        " ",
       p4Price: " ",
 
-      p5Title: "Veggie Burger",
-      p5Text: "  Served with hand cut Chips",
+      p5Title: "with vanilla ice cream",
+      p5Text: "  ",
       p5Price: " ",
+      p6Title: "Belgium Waffle",
+      p7Title:"with vanilla ice cream",
+
     },
     {
       id: "6",
-      title: "Suya",
+      title: "Hot Drinks",
 
-      p1Title: "Small Beef Suya ",
-      p1Text: "Served with onion, tomato and spiced suya pepper.",
+      p1Title: "Espresso",
+      p1Text:""
+        ,
       p1Price: "",
 
-      p2Title: "Large Beef Suya ",
-      p2Text: "Served with onion, tomato and spiced suya pepper. ",
+      p2Title: "Cappuccino  ",
+      p2Text: "",
       p2Price: " ",
 
-      p3Title: "  Chicken Suya ",
-      p3Text: " Served with onion, tomato and spiced suya pepper",
+      p3Title: " Latte",
+      p3Text:
+        " ",
       p3Price: " ",
 
-      p4Title: "Beef Jolof Rice",
-      p4Text: "  Served with plantain, assorted meat and salad",
+      p4Title: "Mocha ",
+      p4Text:
+        " ",
       p4Price: " ",
 
-      p5Title: "Chicken Jolof Rice",
-      p5Text: "  Served with Rice and Chicken (Students)",
+      p5Title: "Hot Chocolate ",
+      p5Text: "  ",
       p5Price: " ",
+      p6Title: "Tea ",
+      p7Title:"Americano ",
     },
     {
       id: "7",
-      title: "Sides",
+      title: "Sides & Small Plates",
 
-      p1Title: "Chips and Dips",
-      p1Text: "French fries with choice of dips (VG) (G) ",
+      p1Title: "Breaded Mushrooms (V)",
+      p1Text:"served with garlic mayo"
+        ,
       p1Price: "",
 
-      p2Title: " Sweet Potato Fries  ",
-      p2Text: " Rosemary, garlic, Dijon mustard, herbs, pistachios",
+      p2Title: "Halloumi Bites  ",
+      p2Text: "lettuce, sundries tomato",
       p2Price: " ",
 
-      p3Title: "  Hand cut Chips      ",
-      p3Text: "Rubbed with rosemary, lemon and served with",
+      p3Title: " Nachos",
+      p3Text: " mixed jalapenos salsa, sour cream,  guacamole",
       p3Price: " ",
 
-      p4Title: "Caesar Salad      ",
+      p4Title: "Mixed Olives ",
       p4Text:
-        " Iceberg lettuce, cherry tomatoes, parmesan dressing with crouton and crispy bacon",
+        " ",
       p4Price: " ",
 
-      p5Title: "Baked Camembert",
-      p5Text: " Served with garlic bread sticks and caramelise",
+      p5Title: "Garlic Ciabatta ",
+      p5Text: "  ",
       p5Price: " ",
-
-      p6Title: "Garlic Bread Sticks",
-      p6Text: "  Freshly made extra crunchy sticks with choice of dips",
-      p6Price: " ",
+      p6Title: "Sweet Potato Fries ",
+      p7Title: "Hand cut Chips ",
+      p8Title: "Mixed Leaf Salad",
+      p9Title: "Onion Rings",
+      p10Title:"Fried Plantain",
     },
     {
       id: "8",
-      title: "Dessert",
+      title: "Sandwiches",
 
-      p1Title: "Homemade Crumble",
+      p1Title: " Club Sandwich",
       p1Text:
-        "Chef fresh seasonal fruits crunchy crumble, serve with warm custard or ice cream",
+        "Chicken, bacon lettuce and tomato  with mayo",
       p1Price: "",
 
-      p2Title: " Chef Flavour Cheesecake of the Day",
-      p2Text: " Selection of ice creams with homemade shortbread cookies",
+      p2Title: " BLT",
+      p2Text: "Chicken, bacon lettuce and tomato  with mayo",
       p2Price: " ",
 
       p3Title: "  Baileys Bread and Butter Pudding",
       p3Text: "Served with vanilla ice cream",
       p3Price: " ",
 
-      p4Title: "Sticky Toffee Pudding",
+      p4Title: "Tuna Melt",
       p4Text:
-        "  Homemade sticky toffee with toffee sauce and vanilla ice creams",
+        "  Grilled bacon with lettuce and tomato  in a thick cut Sandwich with mayo",
       p4Price: " ",
 
-      p5Title: "Apple Tart",
-      p5Text: " Amazing Apple tart served with cinnamon ice creams and cream",
+      p5Title: "Sausage, Bacon or Cheese & Onion Cob ",
+      p5Text: " ",
       p5Price: " ",
     },
   ];
@@ -235,7 +258,7 @@ const HomePageMenu = () => {
                   <SwiperNavButtons></SwiperNavButtons>
 
                   <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
-                    <h4 className="text-center menuCardTitle dark:text-white mt-5 mb-20 text-4xl sm:text-[40px] text-black">
+                    <h4 className="text-center menuCardTitle dark:text-white mt-5 mb-6 text-4xl sm:text-[40px] text-black">
                       {menuCard?.title}
                     </h4>
                     <div className="flex sm:px-10 mt-[20px] items-center justify-between">
@@ -321,6 +344,29 @@ const HomePageMenu = () => {
                         {menuCard?.p6Price}
                       </p>
                     </div>
+                    {/* 7 */}
+                    <div className="flex mt-10 sm:px-10  items-center justify-between">
+                      <div className="">
+                        <p className="dark:text-white text-black font-bold text-[20px]">
+                          {menuCard?.p7Title}
+                        </p>
+                        <p className="dark:text-white text-black  text-[17px]">
+                          {menuCard?.p7Text}
+                        </p>
+                      </div>
+                      <p className="dark:text-white text-black font-bold text-[20px]">
+                        {menuCard?.p7Price}
+                      </p>
+                    </div>
+                    <p className="dark:text-white mt-10 sm:px-10  text-black font-bold text-[20px]">
+                          {menuCard?.p8Title}
+                    </p>
+                    <p className="dark:text-white mt-10 sm:px-10  text-black font-bold text-[20px]">
+                          {menuCard?.p9Title}
+                    </p>
+                    <p className="dark:text-white mt-10 sm:px-10  text-black font-bold text-[20px]">
+                          {menuCard?.p10Title}
+                        </p>
                   </div>
                 </SwiperSlide>
               ))}
