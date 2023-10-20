@@ -125,7 +125,7 @@ const Footer = () => {
             />
           </div>
 
-          <div className="w-full   xl:w-[75%] border pb-10 pt-20 px-4 lg:px-10 mt-8 rounded-xl border-[#0B1517] mx-auto">
+          <div className="w-full   xl:w-[75%] border pb-10 pt-20 px-4 lg:px-10 mt-8 rounded-xl dark:border-[#fff] border-[#0B1517] mx-auto">
             <div className=" lg:flex items-center gap-6 mt-[20px] justify-center">
               <div className=" ">
                 <a
