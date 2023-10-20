@@ -5,13 +5,14 @@ import Reservation from "@/Components/Reservation";
 import ImageSlide from "@/Components/imageSlide/ImageSlide";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
+import NewSlide from "@/Components/NewSlide";
 
 export default function Home() {
   return (
     <>
       {/* 1 */}
       <div className="overflow-hidden relative h-[1500px] lg:h-[1898px]  flex items-center justify-start  ">
-        <div className="absolute top-0 left-0 z-50 opacity-[0.3] h-[1500px] lg:h-[1898px] w-full bg-[#000] "></div>
+        <div className="absolute top-0 left-0 z-50 opacity-[0.2] h-[1500px] lg:h-[1898px] w-full bg-[#000] "></div>
         <img
           className="absolute top-0 left-0 h-[1500px] lg:h-[1898px] w-full"
           src="/images/foxmainhero.png"
@@ -82,54 +83,11 @@ export default function Home() {
           </div>
       <HomePageMenu></HomePageMenu>
 
-      <div className="sm:flex justify-end items-center min-h-[460px] sm:h-[732px] xl:h-[900px] HomeWineBg  gap-8">
-        <div className="px-4 sm:pr-10 py-20 ">
-          <h1 className="AboutUs text-[36px] leading-[50px]  sm:text-[64px] sm:leading-[96px] text-white ">
-            Happy Hours
-          </h1>
-          <p className=" text-white text-[28px] sm:text-[36px] my-8">
-            Drinks & Cocktails
-          </p>
-          <p className="AboutP text-white  my-8">
-            We offer variety of deals throughout the week at Passion Blend
-            <br className="hidden sm:block" />
-            Bar. To be the first to know follow us on social media.
-          </p>
-          <div className="flex mt-20 gap-4 sm:gap-10 justify-center">
-            <a
-              target="_blank"
-              href="https://www.facebook.com/passionblendbarleicester"
-            >
-              <img src="./f.png" alt="" />
-            </a>
+      
+      <img className="px-4 sm:px-16" src="/images/foxbutbarrntertainmentrooms.png" alt="" />
 
-            <a target="_blank" href="https://twitter.com/passion_blend?lang=en">
-              <img src="./twitter.png" alt="" />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.instagram.com/passionblendbar/?igshid=MzNlNGNkZWQ4Mg%3D%3D"
-            >
-              <img src="./instra.png" alt="" />
-            </a>
-            <a target="_blank" href="https://www.tiktok.com/@passionblendbar">
-              <img src="./tiktok.png" alt="" />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.snapchat.com/add/passionblendbar"
-            >
-              <img src="./snap.png" alt="" />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.youtube.com/@passionblendbarchannel/videos"
-            >
-              <img src="./youtube.png" alt="" />
-            </a>
-          </div>
-        </div>
-      </div>
+<NewSlide/>
+      {/* Our Event Gallery */}
       <div
         id="event"
         className="flex px-6 py-24 w-full justify-center  items-center"

@@ -179,7 +179,7 @@ const Footer = () => {
                 <Popover.Panel className="formBg rounded-md absolute py-10 left-0 sm:left-[20%] top-[15%]  md:top-[30%] lg:left-[30%] 2xl:left-[40%]  lg:top-[-10%] z-[10000] ">
                   <div className="relative">
                     <Popover.Button className="focus:border-none btn-border-none  outline-none focus:outline-none border-none">
-                      <BsXLg className="absolute right-10 top-10 text-white text-end text-[25px]"></BsXLg>
+                      <BsXLg className="absolute right-10 top-5 text-white text-end text-[25px]"></BsXLg>
                     </Popover.Button>
                     <form ref={form}  action="" className="w-full ">
                       <h2 className="text-white font-bold  text-center text-[40px] leading-[50px]">

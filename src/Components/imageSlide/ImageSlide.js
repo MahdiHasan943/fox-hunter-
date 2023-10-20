@@ -20,9 +20,9 @@ const ImageSlide = () => {
   const SlidesImages = [
     {
       "id": "1",
-      "imgL": "./FoxhutBar.png",
-      "imgM": "./Mangoma.png",
-      "imgR":"./Shayo.png"
+      "imgL": "./images/hype.png",
+      "imgM": "./images/shisha.png",
+      "imgR":"./images/Shayo.png"
     }
     ,
     {
@@ -32,59 +32,59 @@ const ImageSlide = () => {
       "imgR":"./Shayo.png"
     }
     ,
-    {
-      "id": "3",
-      "imgL": "./FoxhutBar.png",
-      "imgM": "./eventImage3.png",
-      "imgR":"./Shayo.png"
-    }
+//     {
+//       "id": "3",
+//       "imgL": "./FoxhutBar.png",
+//       "imgM": "./eventImage3.png",
+//       "imgR":"./Shayo.png"
+//     }
 
-    ,
-    {
-      "id": "4",
-      "imgL": "./FoxhutBar.png",
-      "imgM": "./OurEventImage1.png",
-      "imgR":"./Shayo.png"
-    }
+//     ,
+//     {
+//       "id": "4",
+//       "imgL": "./FoxhutBar.png",
+//       "imgM": "./OurEventImage1.png",
+//       "imgR":"./Shayo.png"
+//     }
     
 
-,
-  {
-    "id": "5",
-    "imgL": "./FoxhutBar.png",
-    "imgM": "./eventImage2.png",
-    "imgR":"./Shayo.png"
-    },
-    {
-      "id": "6",
-      "imgL": "./FoxhutBar.png",
-      "imgM": "./eventImage4.png",
-      "imgR":"./Shayo.png"
-    },
-    {
-      "id": "7",
-      "imgL": "./FoxhutBar.png",
-      "imgM": "./eventImage11.png",
-      "imgR":"./Shayo.png"
-    },
-    {
-      "id": "8",
-      "imgL": "./FoxhutBar.png",
-      "imgM": "./eventImage7.png",
-      "imgR":"./Shayo.png"
-    },
-    {
-      "id": "9",
-      "imgL": "./FoxhutBar.png",
-      "imgM": "./eventImage6.png",
-      "imgR":"./Shayo.png"
-    },
-    {
-      "id": "10",
-      "imgL": "./FoxhutBar.png",
-      "imgM": "./eventImage12.png",
-      "imgR":"./Shayo.png"
-    }
+// ,
+//   {
+//     "id": "5",
+//     "imgL": "./FoxhutBar.png",
+//     "imgM": "./eventImage2.png",
+//     "imgR":"./Shayo.png"
+//     },
+//     {
+//       "id": "6",
+//       "imgL": "./FoxhutBar.png",
+//       "imgM": "./eventImage4.png",
+//       "imgR":"./Shayo.png"
+//     },
+//     {
+//       "id": "7",
+//       "imgL": "./FoxhutBar.png",
+//       "imgM": "./eventImage11.png",
+//       "imgR":"./Shayo.png"
+//     },
+//     {
+//       "id": "8",
+//       "imgL": "./FoxhutBar.png",
+//       "imgM": "./eventImage7.png",
+//       "imgR":"./Shayo.png"
+//     },
+//     {
+//       "id": "9",
+//       "imgL": "./FoxhutBar.png",
+//       "imgM": "./eventImage6.png",
+//       "imgR":"./Shayo.png"
+//     },
+//     {
+//       "id": "10",
+//       "imgL": "./FoxhutBar.png",
+//       "imgM": "./eventImage12.png",
+//       "imgR":"./Shayo.png"
+//     }
 
 
   ]
@@ -137,7 +137,7 @@ const ImageSlide = () => {
                     }}
                   >  
                   <img
-                  className="min-h-[252px] md:h-[800px]  h-[450px] w-full"
+                  className="h-[250px]       sm:h-[547px] w-full"
                   src={slidesImage?.imgL}
                   alt=""
                 /></PhotoView>
@@ -167,7 +167,7 @@ const ImageSlide = () => {
                   }}
                   >  
                   <img
-                  className="min-h-[252px] md:h-[800px]  h-[450px] w-full"
+                  className="h-[250px]       sm:h-[547px]  w-full"
                   src={slidesImage?.imgM}
                   alt=""
                 /></PhotoView>
@@ -197,7 +197,7 @@ const ImageSlide = () => {
                   }}
                   >  
                   <img
-                  className="min-h-[252px] md:h-[800px]  h-[450px] w-full"
+                  className="h-[250px]       sm:h-[547px] w-full"
                   src={slidesImage?.imgR}
                   alt=""
                 /></PhotoView>
