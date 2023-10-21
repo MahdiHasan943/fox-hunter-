@@ -257,7 +257,7 @@ const HomePageMenu = () => {
                 <SwiperSlide key={menuCard.id} className=" mt-[50px]">
                   <SwiperNavButtons></SwiperNavButtons>
 
-                  <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
+                  <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#C18260]">
                     <h4 className="text-center menuCardTitle dark:text-white mt-5 mb-6 text-4xl sm:text-[40px] text-black">
                       {menuCard?.title}
                     </h4>

@@ -1,5 +1,4 @@
 import React from "react";
-
 import style from "../../styles/Menu.module.css";
 import Link from "next/link";
 
