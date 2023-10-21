@@ -22,16 +22,15 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
                 className="w-full mx-auto     h-[460px]  sm:h-[514px] "
-                src="../CL.jpg"
+                src="../images/continentalMenu.png"
                 alt=""
               />
             </div>
             <p className="text-[#B5986D] text-center pt-10 pb-4 font-bold text-[25px]">
-              Lunch
-            </p>
+            Continental            </p>
             <div className="text-center">
               <Link
-                href="/Menu/CONTINENTAL/Launch"
+                href="/Menu/Continental"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -44,16 +43,16 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
                 className="w-full mx-auto     h-[460px]  sm:h-[514px] "
-                src="../CB.jpg"
+                src="../images/pubClassMenu.png"
                 alt=""
               />
             </div>
             <p className="text-[#B5986D] text-center pt-10 pb-4 font-bold text-[25px]">
-              Breakfast
+            Pub Classics
             </p>
             <div className="text-center">
               <Link
-                href="/Menu/CONTINENTAL/Breakfast"
+                href="/Menu/PubClassics"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -65,16 +64,16 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
                 className="w-full mx-auto     h-[460px]  sm:h-[514px] "
-                src="../CG.jpg"
+                src="../images/pizzaMenu.png"
                 alt=""
               />
             </div>
             <p className="text-[#B5986D] text-center pt-10 pb-4 font-bold text-[25px]">
-              Grilled Fish
+            Pizzas
             </p>
             <div className="text-center">
               <Link
-                href="/Menu/CONTINENTAL/GrilledFish"
+                href="/Menu/Pizza"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -86,16 +85,15 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
                 className="w-full mx-auto     h-[460px]  sm:h-[514px] "
-                src="../CM.jpg"
+                src="../images/breakfastMenu.png"
                 alt=""
               />
             </div>
             <p className="text-[#B5986D] text-center pt-10 pb-4 font-bold text-[25px]">
-              Grilled Meat
-            </p>
+            Breakfast            </p>
             <div className="text-center">
               <Link
-                href="/Menu/CONTINENTAL/GrilledMeat"
+                href="/Menu/Breakfast"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -107,7 +105,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
                 className="w-full mx-auto     h-[460px]  sm:h-[514px] "
-                src="../CD.jpg"
+                src="../images/dessertMenu.png"
                 alt=""
               />
             </div>
@@ -116,7 +114,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href="/Menu/CONTINENTAL/Dessert"
+                href="/Menu/Dessert"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -128,16 +126,16 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
                 className="w-full mx-auto     h-[460px]  sm:h-[514px] "
-                src="../CF.jpg"
+                src="../images/hotDringkMenu.png"
                 alt=""
               />
             </div>
             <p className="text-[#B5986D] text-center pt-10 pb-4 font-bold text-[25px]">
-              Coffee & Tea
+            Hot Drinks
             </p>
             <div className="text-center">
               <Link
-                href="/Menu/CONTINENTAL/Coffee"
+                href="/Menu/HotDrinks"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -149,16 +147,16 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
                 className="w-full mx-auto     h-[460px]  sm:h-[514px] "
-                src="../CS.jpg"
+                src="../images/sidesMenu.png"
                 alt=""
               />
             </div>
             <p className="text-[#B5986D] text-center pt-10 pb-4 font-bold text-[25px]">
-              Suya
+            Sides & Small Plates
             </p>
             <div className="text-center">
               <Link
-                href="/Menu/CONTINENTAL/Suya"
+                href="/Menu/SideSmallPlates"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -170,16 +168,15 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
                 className="w-full mx-auto     h-[460px]  sm:h-[514px] "
-                src="../CSi.jpg"
+                src="../images/sandwichMenu.png"
                 alt=""
               />
             </div>
             <p className="text-[#B5986D] text-center pt-10 pb-4 font-bold text-[25px]">
-              Sides
-            </p>
+            Sandwiches            </p>
             <div className="text-center">
               <Link
-                href="/Menu/CONTINENTAL/Sides"
+                href="/Menu/Sandwiches"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
