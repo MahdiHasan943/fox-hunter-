@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Foldit:wght@100;200;300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,700;0,900;1,100;1,700;1,900&family=Sofia+Sans:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
-
+@import url("https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -304,4 +304,212 @@ input[type="time"]:valid::before {
   font-weight: 400;
   font-size: 40px;
   line-height: 60px;
+}
+
+
+
+/* Room slide */
+/* Custom properties */
+/* Header */
+#main-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  padding: 10rem 4rem;
+}
+
+#main-header img {
+  max-width: 100%;
+  height: auto;
+}
+
+p.intro {
+  font-family: var(--secondary-ff);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--black-50);
+}
+
+/* Sections */
+.padded {
+  padding: 7.5rem;
+}
+
+#about {
+  background-color: var(--bg-1);
+}
+
+#slider-2 {
+  padding-bottom: 7.5rem!important;
+}
+
+/* Container */
+.container {
+  max-width: 46rem;
+  margin: auto;
+}
+
+.container.wide {
+  max-width: 100%;
+  padding: 0 4rem;
+}
+
+/* Footer */
+
+
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+  .padded,
+  #main-header {
+      padding: 4rem;
+  }
+}
+
+/* Swiper */
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.swiper-slide figure {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.swiper-slide figcaption {
+  position: absolute!important;
+  bottom: 0;
+  color: #fff;
+  font-size: 17px;
+  font-family: var(--secondary-ff);
+  line-height: 29px;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+  border-radius: .5rem .5rem 0 0;
+  padding: 1rem 2rem;
+  left: 50%;
+  transform: translate3d(-50%, 100%, 0);
+  opacity: 0;
+  transition: all .3s ease-in-out;
+}
+
+.swiper-slide-active figcaption {
+  transform: translate3d(-50%, 0, 0)!important;
+  opacity: 1!important;
+}
+
+.swiper-slide figcaption img {
+  width: auto!important;
+  height: auto!important;
+  object-fit: contain!important;
+}
+
+#swiper-1 .swiper-pagination {
+  bottom: 2rem!important;
+}
+
+#swiper-1 .swiper-pagination-bullet {
+  margin: 0 .5rem!important;
+  opacity: 1!important;
+  background-color: var(--black-75)!important;
+  width: .75rem!important;
+  height: .75rem!important;
+}
+
+#swiper-1 .swiper-pagination-bullet-active {
+  background-color: var(--accent)!important;
+}
+
+.swiper-custom-nav {
+  position: absolute!important;
+  top: 50%!important;
+  transform: translateY(-50%)!important;
+  left: 0!important;
+  z-index: 10!important;
+  padding: 0 2rem!important;
+  display: flex!important;
+  justify-content: space-between!important;
+  width: 100%!important;
+}
+
+.swiper-custom-nav svg {
+  cursor: pointer!important;
+  opacity: .6!important;
+  transition: all .3s ease-in-out!important;
+}
+
+.swiper-custom-nav svg:hover {
+  opacity: 1!important;
+}
+
+.swiper-custom-pagination {
+  display: flex!important;
+  width: 100%!important;
+  padding-top: 2rem!important;
+  justify-content: center!important;
+  gap: 1rem!important;
+  font-family: var(--secondary-ff)!important;
+  font-size: 17px!important;
+  line-height: 29px!important;
+  font-weight: 500!important;
+  color: var(--black)!important;
+}
+
+.swiper-custom-pagination .swiper-pagination-bullet {
+  width: auto!important;
+  height: auto!important;
+  border-radius: 0!important;
+  background-color: transparent!important;
+  opacity: 1!important;
+  text-align: center!important;
+}
+
+.swiper-custom-pagination .number {
+  opacity: 0!important;
+  transition: all .3s ease-in-out!important;
+}
+
+.swiper-custom-pagination .line {
+  opacity: .3!important;
+  height: .25rem!important;
+  width: .75rem!important;
+  background-color: var(--black)!important;
+  display: block!important;
+  border-radius: 4px!important;
+  transition: all .3s ease-in-out!important;
+}
+
+.swiper-custom-pagination .swiper-pagination-bullet-active .number,
+.swiper-custom-pagination .swiper-pagination-bullet-active .line {
+  opacity: 1!important;
+}
+
+.swiper-custom-pagination .swiper-pagination-bullet-active .line {
+  width: 2rem!important;
+}
+
+@media screen and (max-width: 800px) {
+  .swiper-slide img {
+      height: 20rem!important;
+  }
+
+  .swiper-slide figcaption {
+      left: 0!important;
+      transform: none!important;
+      width: 100%!important;
+      border-radius: 0!important;
+      background-color: var(--black-90)!important;
+  }
+
+  .swiper-custom-nav {
+      display: none!important;
+  }
 }

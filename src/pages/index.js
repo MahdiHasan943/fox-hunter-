@@ -6,9 +6,9 @@ import ImageSlide from "@/Components/imageSlide/ImageSlide";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 import NewSlide from "@/Components/NewSlide";
-import CopyWineSlide from "@/Components/imageSlide/CopyWineSlide";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import RoomSlide from "@/Components/imageSlide/RoomSlide";
 
 export default function Home() {
     const { systemTheme, theme, setTheme } = useTheme();
@@ -100,7 +100,7 @@ export default function Home() {
 
       }
       <div className="overflow-hidden sm:w-[95%] mx-auto">
-      <CopyWineSlide />
+        <RoomSlide/>
 
       </div>
     
