@@ -5,7 +5,7 @@ const BottledBeers = () => {
   return (
     <div className=''>
 
-      <div className='h-[600px]  lg:h-[600px] bg-no-repeat  bg-cover bg-full bg-center w-full'
+      <div className='h-[480px]   bg-no-repeat  bg-cover bg-full bg-center w-full'
         style={{ backgroundImage: `url("../images/bottleBeerHero.png")` }} >
     <div className=" flex justify-center h-full items-center">
 <h1 className='text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]'>Bottled Beer & Cider Bar</h1>

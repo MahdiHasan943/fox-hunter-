@@ -4,7 +4,7 @@ const ShotsGin = () => {
   return (
     <div className="">
       <div
-        className="h-[600px] lg:h-[850px] bg-no-repeat  dark:opacity-[0.9] bg-cover  bg-center   w-full"
+        className="h-[600px] bg-no-repeat  dark:opacity-[0.9] bg-cover  bg-center   w-full"
         style={{ backgroundImage: `url("../images/ShotsHero.png")` }}
       >
         <div className=" flex justify-center h-full items-center">

@@ -207,7 +207,7 @@ const WineSlider = () => {
           <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
               className="mx-auto w-full sm:w-[300px] sm:sm: h-full  sm:h-[350px] "
-              src="../images/vodkaHero.png"
+              src="../images/vodkaM.png"
               alt=""
             />
           </div>
@@ -229,7 +229,7 @@ const WineSlider = () => {
           <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
               className="mx-auto w-full sm:w-[300px] sm:sm: h-full  sm:h-[350px] "
-              src="../images/ShotsHero.png"
+              src="../images/ginM.png"
               alt=""
             />
           </div>

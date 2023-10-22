@@ -52,7 +52,7 @@ function Header() {
           <Link
             className={`${
               router.pathname === "/"
-                ? "text-[#b1935e]  nav__link"
+                ? "text-[#fc6506]  nav__link"
                 : "nav__link  text-white	"
             } `}
             href={"/"}
@@ -63,12 +63,12 @@ function Header() {
           <Link href={'/Menu'}
            className={`${
             router.pathname === "/Menu"
-              ? "text-[#b1935e] nav__link"
+              ? "text-[#fc6506] nav__link"
               : "nav__link text-white	"
               } `}
               onClick={navToggle}
           >
-          <li className="nav__item menu hover:text-[#b1935e]">
+          <li className="nav__item menu hover:text-[#fc6506]">
             Menu
             {/* <ul className=" subMenu">
               <Link
@@ -106,7 +106,7 @@ function Header() {
           <Link
             className={`${
               router.pathname === "/#event"
-                ? "text-[#b1935e] nav__link"
+                ? "text-[#fc6506] nav__link"
                 : "nav__link text-white"
             } 	`}
             href={"/#event"}
@@ -119,7 +119,7 @@ function Header() {
           <Link
             className={`${
               router.pathname === "/WineAndCoctail/WineAndCoctail"
-                ? "text-[#b1935e] nav__link"
+                ? "text-[#fc6506] nav__link"
                 : "nav__link text-white	"
             } `}
             href={"/WineAndCoctail/WineAndCoctail"}
@@ -131,7 +131,7 @@ function Header() {
           <Link
             className={`${
               router.pathname === "/Contact/Contact"
-                ? "text-[#b1935e] nav__link"
+                ? "text-[#fc6506] nav__link"
                 : "nav__link text-white"
             } 	`}
             href={"/Contact/Contact"}

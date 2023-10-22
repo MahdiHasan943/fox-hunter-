@@ -3,7 +3,7 @@ const DraftBeers = () => {
   return (
     <div className="">
       <div
-        className="h-[550px] bg-no-repeat lg:h-[650px]  bg-cover bg-full bg-center w-full"
+        className="h-[422px] bg-no-repeat mt-[50px]   bg-cover bg-full bg-center w-full"
         style={{ backgroundImage: `url("../images/DraftbeerHero.png")` }}
       >
         <div className=" flex justify-center h-full items-center">
