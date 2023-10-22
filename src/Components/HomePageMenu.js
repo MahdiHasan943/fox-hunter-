@@ -257,72 +257,72 @@ const HomePageMenu = () => {
                 <SwiperSlide key={menuCard.id} className=" mt-[50px]">
                   <SwiperNavButtons></SwiperNavButtons>
 
-                  <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#C18260]">
-                    <h4 className="text-center menuCardTitle dark:text-white mt-5 mb-6 text-4xl sm:text-[40px] text-black">
+                  <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px] h-[550px]  sm:h-auto px-10 lg:py-20 rounded-2xl bg-[#C18260]">
+                    <h4 className=" menuCardTitle font-popping dark:text-white mt-5 lg:mb-6 font-bold text-[34px] sm:text-[40px] text-black">
                       {menuCard?.title}
                     </h4>
-                    <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                    <div className="flex sm:px-10 mt-[10px] sm:mt-[20px] items-center justify-between">
                       <div className="">
-                        <p className="dark:text-white text-black font-bold text-[20px]">
+                        <p className="dark:text-white text-black font-bold text-[16px] lg:text-[20px]">
                           {menuCard?.p1Title}
                         </p>
-                        <p className="dark:text-white text-black py-5  text-[17px]">
+                        <p className="dark:text-white text-black  text-[15px] lg:text-[17px]">
                           {menuCard?.p1Text}
                         </p>
                       </div>
-                      <p className="dark:text-white text-black font-bold text-[20px]">
+                      {/* <p className="dark:text-white text-black font-bold text-[20px]">
                         {menuCard?.p1Price}
-                      </p>
+                      </p> */}
                     </div>
                     {/* 2 */}
-                    <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                    <div className="flex sm:px-10 mt-[10px] sm:mt-[20px] items-center justify-between">
                       <div className="">
-                        <p className="dark:text-white text-black font-bold text-[20px]">
+                        <p className="dark:text-white text-black font-bold  text-[16px] lg:text-[20px]">
                           {menuCard?.p2Title}
                         </p>
-                        <p className="dark:text-white text-black  py-4 text-[17px]">
+                        <p className="dark:text-white text-black  text-[15px] lg:text-[17px]">
                           {menuCard?.p2Text}
                         </p>
                       </div>
-                      <p className="dark:text-white text-black font-bold text-[20px]">
+                      {/* <p className="dark:text-white text-black font-bold  text-[16px] lg:text-[20px]">
                         {menuCard?.p2Price}
-                      </p>
+                      </p> */}
                     </div>
                     {/* 3 */}
-                    <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                    <div className="flex sm:px-10 mt-[10px] sm:mt-[20px] items-center justify-between">
                       <div className="">
-                        <p className="dark:text-white text-black font-bold text-[20px]">
+                        <p className="dark:text-white text-black font-bold  text-[16px] lg:text-[20px]">
                           {menuCard.p3Title}
                         </p>
-                        <p className="dark:text-white text-black  text-[17px]">
+                        <p className="dark:text-white text-black  text-[15px] lg:text-[17px]">
                           {menuCard?.p3Text}
                         </p>
                       </div>
-                      <p className="dark:text-white text-black font-bold text-[20px]">
+                      {/* <p className="dark:text-white text-black font-bold  text-[16px] lg:text-[20px]">
                         {menuCard?.p3Price}
-                      </p>
+                      </p> */}
                     </div>
                     {/* 4 */}
-                    <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                    <div className="flex sm:px-10 mt-[10px] sm:mt-[20px] items-center justify-between">
                       <div className="">
-                        <p className="dark:text-white text-black font-bold text-[20px]">
+                        <p className="dark:text-white text-black font-bold  text-[16px] lg:text-[20px]">
                           {menuCard?.p4Title}
                         </p>
-                        <p className="dark:text-white text-black  text-[17px]">
+                        <p className="dark:text-white text-black text-[15px] lg:text-[17px]">
                           {menuCard?.p4Text}
                         </p>
                       </div>
-                      <p className="dark:text-white text-black font-bold text-[20px]">
+                      {/* <p className="dark:text-white text-black font-bold text-[20px]">
                         {menuCard?.p4Price}
-                      </p>
+                      </p> */}
                     </div>
                     {/* 5 */}
-                    <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                    <div className="flex sm:px-10 mt-[10px] sm:mt-[20px] items-center justify-between">
                       <div className="">
-                        <p className="dark:text-white text-black font-bold text-[20px]">
+                        <p className="dark:text-white text-black font-bold  text-[16px] lg:text-[20px]">
                           {menuCard?.p5Title}
                         </p>
-                        <p className="dark:text-white text-black  text-[17px]">
+                        <p className="dark:text-white text-black  text-[15px] lg:text-[17px]">
                           {menuCard?.p5Text}
                         </p>
                       </div>
@@ -331,26 +331,26 @@ const HomePageMenu = () => {
                       </p>
                     </div>
                     {/* 6 */}
-                    <div className="flex mt-10 sm:px-10  items-center justify-between">
+                    <div className="flex mt-[10px] sm:mt-[20px] sm:px-10  items-center justify-between">
                       <div className="">
-                        <p className="dark:text-white text-black font-bold text-[20px]">
+                        <p className="dark:text-white text-black font-bold  text-[16px] lg:text-[20px]">
                           {menuCard?.p6Title}
                         </p>
-                        <p className="dark:text-white text-black  text-[17px]">
+                        <p className="dark:text-white text-black  text-[15px] lg:text-[17px]">
                           {menuCard?.p6Text}
                         </p>
                       </div>
-                      <p className="dark:text-white text-black font-bold text-[20px]">
+                      {/* <p className="dark:text-white text-black font-bold  text-[16px] lg:text-[20px]">
                         {menuCard?.p6Price}
-                      </p>
+                      </p> */}
                     </div>
                     {/* 7 */}
-                    <div className="flex mt-10 sm:px-10  items-center justify-between">
+                    <div className="flex mt-[10px] sm:mt-[20px] sm:px-10  items-center justify-between">
                       <div className="">
-                        <p className="dark:text-white text-black font-bold text-[20px]">
+                        <p className="dark:text-white text-black font-bold  text-[16px] lg:text-[20px]">
                           {menuCard?.p7Title}
                         </p>
-                        <p className="dark:text-white text-black  text-[17px]">
+                        <p className="dark:text-white text-black text-[15px] lg:text-[17px]">
                           {menuCard?.p7Text}
                         </p>
                       </div>
@@ -358,13 +358,13 @@ const HomePageMenu = () => {
                         {menuCard?.p7Price}
                       </p>
                     </div>
-                    <p className="dark:text-white mt-10 sm:px-10  text-black font-bold text-[20px]">
+                    <p className="dark:text-white mt-[10px] sm:mt-[20px] sm:px-10  text-black font-bold  text-[16px] lg:text-[20px]">
                           {menuCard?.p8Title}
                     </p>
-                    <p className="dark:text-white mt-10 sm:px-10  text-black font-bold text-[20px]">
+                    <p className="dark:text-white mt-[10px] sm:mt-[20px] sm:px-10  text-black font-bold text-[15px] lg:text-[17px]">
                           {menuCard?.p9Title}
                     </p>
-                    <p className="dark:text-white mt-10 sm:px-10  text-black font-bold text-[20px]">
+                    <p className="dark:text-white mt-[10px] sm:mt-[20px] sm:px-10  text-black font-bold  text-[16px] lg:text-[20px]">
                           {menuCard?.p10Title}
                         </p>
                   </div>

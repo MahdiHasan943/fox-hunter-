@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <>
       {/* 1 */}
-      <div className="overflow-hidden relative h-[1500px] lg:h-[1898px]  flex items-center justify-start  ">
+      <div className="overflow-hidden relative h-[1650px] lg:h-[1898px]  flex items-center justify-start  ">
         <div className="absolute top-0 left-0 z-50 opacity-[0.2] h-[1500px] lg:h-[1898px] w-full bg-[#000] "></div>
         <img
           className="absolute top-0 left-0 h-[1500px] lg:h-[1898px] w-full"
@@ -39,11 +39,11 @@ export default function Home() {
           <p className="where my-4">Where The World comes to DANCE & dine</p>
         </div>
 
-        <div className="absolute bottom-0 z-50 w-full bg-[#C182608F] py-8 h-[750px] lg:h-[650px]">
+        <div className="absolute bottom-0 z-50 w-full bg-[#C182608F] py-8 lg:h-[650px]">
           <h2 className="underline underline-offset-4 font-popping text-[48px] font-bold decoration-white text-center">
             About Us
           </h2>
-          <div className="w-full mt-6 px-6 grid grid-cols-1 gap-20 lg:grid-cols-2 lg:mt-20 lg:px-10">
+          <div className="w-full mt-6 px-6 grid grid-cols-1 gap-20 lg:grid-cols-3 lg:mt-20 lg:px-10">
             <p className="font-popping  leading-[22px] tracking-wider sm:w-[498px] mx-auto text-[16px] text-[#fff]">
               Right opposite Leicester’s main train station, Hind & PB Lounge is
               a gastro pub fit for breakfast, lunch and dinner. On London Road,
@@ -54,6 +54,14 @@ export default function Home() {
               bit crazy in the early hours, Hind & PB Lounge is fit for
               whatever.
             </p>
+
+            <p className="font-popping  leading-[22px] tracking-wider sm:w-[498px] mx-auto text-[16px] text-[#fff]">
+            Serving classic British pub food alongside other international favourites. Starters, sides, main, steaks, dessert and lots more. 
+
+We also have wine, Shots & Liqueurs, Passion Blend, Pina Colada, Margarita, Maitai, Manhattan, Sex On The Beach, Vodka, Cosmopolitan,Classic Mojito, Woo – Woo, Passion Coconut, Blue Lagoon, Spirits, Soft Drinks & Juice, Glass Juice, Bottled Beers and lots more...
+            </p>
+
+
             <p className="font-popping leading-[22px] tracking-wider sm:w-[498px] mx-auto text-[16px] text-[#fff]">
               Serving classic British pub food alongside other international
               favourites. Starters, sides, main, steaks, dessert and lots more.

@@ -74,7 +74,7 @@ const RoomSlide = () => {
                 <div className="swiper-wrapper">
                   <div className="swiper-slide">
                     <figure className='relative'>
-                                          <img src="./images/foxhutslide1.png" alt="Marbella, Spain" />
+                                          <img className='lg:h-[955px]' src="./images/foxhutslide1.png" alt="Marbella, Spain" />
                                           <div className="absolute w-full top-0 left-0 py-4 flex justify-center">
                                           <p className="  font-popping  lg:text-[30px] font-bold text-white text-center">FOX HUT PARTY ROOM</p>
 
