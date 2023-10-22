@@ -6,11 +6,10 @@ import WineSlider from "@/Components/imageSlide/WineSlider";
 const WineAndCoctail = () => {
   return (
     <>
-      <div className={`${style.MwineBg} dark:opacity-[0.8] h-[650px]`}>
+      <div className={`${style.MwineBg}  h-[650px]`}>
         <div className=" flex justify-center h-full  items-center">
           <h1 className="text-white text-center text-[45px]  sm:text-[90px] sm:leading-[100px]">
-            Wine & Cocktail Bar
-          </h1>
+          Wine, Beer & Cocktails and more...          </h1>
         </div>
       </div>
       <div className="w-full lg:w-[85%] 2xl:w-[70%] py-20 mx-auto">

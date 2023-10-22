@@ -118,7 +118,7 @@ const WineSlider = () => {
           <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
               className="mx-auto sm:w-[300px] sm: h-full  sm:h-[350px] "
-              src="../spirit.png"
+              src="../images/spiritsMenu.png"
               alt=""
             />
           </div>
@@ -140,7 +140,7 @@ const WineSlider = () => {
           <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
               className="mx-auto sm:w-[300px] sm: h-full  sm:h-[350px] "
-              src="../Soft-Drinks.jpg"
+              src="../images/softDrinkgM.png"
               alt=""
             />
           </div>
@@ -193,6 +193,50 @@ const WineSlider = () => {
           <div className="flex justify-center">
             <Link
               href={"/WineAndCoctail/Wines"}
+              className="text-center text-[20px] mx-auto dark:text-white text-black"
+            >
+              View menu
+            </Link>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="project h-[600px]  flex justify-center mt-[100px]       ">
+        <div className="">
+          <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
+            <img
+              className="mx-auto w-full sm:w-[300px] sm:sm: h-full  sm:h-[350px] "
+              src="../images/vodkaHero.png"
+              alt=""
+            />
+          </div>
+          <p className="text-[24px] text-center text-[#B5986D]">Vodka & Rum Bar</p>
+          <div className="flex justify-center">
+            <Link
+              href={"/WineAndCoctail/Vodka"}
+              className="text-center text-[20px] mx-auto dark:text-white text-black"
+            >
+              View menu
+            </Link>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="project h-[600px]  flex justify-center mt-[100px]       ">
+        <div className="">
+          <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
+            <img
+              className="mx-auto w-full sm:w-[300px] sm:sm: h-full  sm:h-[350px] "
+              src="../images/ShotsHero.png"
+              alt=""
+            />
+          </div>
+          <p className="text-[24px] text-center text-[#B5986D]">Shots Liquers & Gin</p>
+          <div className="flex justify-center">
+            <Link
+              href={"/WineAndCoctail/ShotsGin"}
               className="text-center text-[20px] mx-auto dark:text-white text-black"
             >
               View menu

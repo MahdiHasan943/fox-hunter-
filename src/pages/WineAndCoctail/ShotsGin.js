@@ -1,68 +1,49 @@
 import React from "react";
-const Wines = () => {
+
+const ShotsGin = () => {
   return (
     <div className="">
-      <div  
-        className="h-[550px] lg:h-[600px] bg-no-repeat  dark:opacity-[0.8] bg-cover bg-full bg-center w-full"
-        style={{ backgroundImage: `url("../../images/wineHeroBg.png")` }}
+      <div
+        className="h-[600px] lg:h-[850px] bg-no-repeat  dark:opacity-[0.9] bg-cover  bg-center   w-full"
+        style={{ backgroundImage: `url("../images/ShotsHero.png")` }}
       >
         <div className=" flex justify-center h-full items-center">
           <h1 className="text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]">
-          Wine & Champagne Bar          </h1>
+          Shots Liquers & Gin         </h1>
         </div>
       </div>
+
       <div className=" py-20  flex items-center px-6   sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
         <div className="">
           <p className="mealDetailsText pb-[100px] underline-offset-[20px]">
-            Red Wines
-          </p>
+          Shots      </p>
 
           <div className="xl:w-[960px] mx-auto">
-            <div className="">
-              <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">Malbec</p>
-                <p className="MDPText text-[#B5986D]"></p>
-              </div>
-              <img className="py-2 w-full" src="../MDLine.png" alt="" />
-            </div>
-            {/* 2 */}
-            <div className="py-20">
-              <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">Shiraz</p>
-                <p className="MDPText  py-4 text-[#B5986D]"></p>
-              </div>
-              <img className="py-2 w-full" src="../MDLine.png" alt="" />
-            </div>
+        
             {/* 3 */}
             <div className="">
               <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">Rioja</p>
+                <p className="MDPText dark:text-white text-black ">
+                Baby Guinness              </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
             </div>
+
+            {/* 4 */}
             <div className="py-20">
               <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">Merlot</p>
-                <p className="MDPText  py-4 text-[#B5986D]"></p>
+                <p className="MDPText dark:text-white text-black ">Jagermeister/Jagerbomb</p>
+                <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div className=" py-20  flex items-center px-6   sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
-        <div className="">
-          <p className="mealDetailsText pb-[100px] underline-offset-[20px]">
-            White Wines
-          </p>
-
-          <div className="xl:w-[960px] mx-auto">
+            {/* 5 */}
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Chardonnay
+                Rainbow Shots
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
@@ -71,9 +52,7 @@ const Wines = () => {
             {/* 2 */}
             <div className="py-20">
               <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">
-                  Pinot Grigio
-                </p>
+                <p className="MDPText dark:text-white text-black ">Sambuca</p>
                 <p className="MDPText  py-4 text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
@@ -82,28 +61,44 @@ const Wines = () => {
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Sauvignon Blanc
-                </p>
+                Sourz             </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
             </div>
+
+            {/* 4 */}
+            <div className="py-20">
+              <div className="flex justify-between px-2">
+                <p className="MDPText dark:text-white text-black ">
+                Tequila                </p>
+                <p className="MDPText text-[#B5986D]"></p>
+              </div>
+              <img className="py-2 w-full" src="../MDLine.png" alt="" />
+            </div>
+            <div className="">
+              <div className="flex justify-between px-2">
+                <p className="MDPText dark:text-white text-black ">
+                Tequila Rose/Cafe          </p>
+                <p className="MDPText text-[#B5986D]"></p>
+              </div>
+              <img className="py-2 w-full" src="../MDLine.png" alt="" />
+            </div>
+
+            
           </div>
         </div>
       </div>
-
       <div className=" py-20  flex items-center px-6   sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
         <div className="">
           <p className="mealDetailsText pb-[100px] underline-offset-[20px]">
-            Rose
-          </p>
+          Liquers        </p>
 
           <div className="xl:w-[960px] mx-auto">
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Pinot Grigio
-                </p>
+                Amaretto                </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
@@ -112,27 +107,50 @@ const Wines = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  White Zinfandel
-                </p>
+                Archers                </p>
                 <p className="MDPText  py-4 text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
             </div>
+            {/* 3 */}
+            <div className="">
+              <div className="flex justify-between px-2">
+                <p className="MDPText dark:text-white text-black ">
+                Baileys               </p>
+                <p className="MDPText text-[#B5986D]"></p>
+              </div>
+              <img className="py-2 w-full" src="../MDLine.png" alt="" />
+            </div>
+            <div className="py-20">
+              <div className="flex justify-between px-2">
+                <p className="MDPText dark:text-white text-black ">
+                Kalua             </p>
+                <p className="MDPText text-[#B5986D]"></p>
+              </div>
+              <img className="py-2 w-full" src="../MDLine.png" alt="" />
+            </div>
+
+            <div className="py-20">
+              <div className="flex justify-between px-2">
+                <p className="MDPText dark:text-white text-black ">
+                Malibu             </p>
+                <p className="MDPText text-[#B5986D]"></p>
+              </div>
+              <img className="py-2 w-full" src="../MDLine.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
-
       <div className=" py-20  flex items-center px-6   sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
         <div className="">
           <p className="mealDetailsText pb-[100px] underline-offset-[20px]">
-            Champagne
-          </p>
+          Gin      </p>
 
           <div className="xl:w-[960px] mx-auto">
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Procesecco
+                Beefeater Flavoured
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
@@ -142,7 +160,7 @@ const Wines = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                Bottega Gold 
+                Boe Flavoured
                 </p>
                 <p className="MDPText  py-4 text-[#B5986D]"></p>
               </div>
@@ -152,34 +170,67 @@ const Wines = () => {
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                Veuve Clicquot Brut                </p>
+                Bombay Saphire
+                </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
             </div>
+
+
+
+
+            <div className="pt-20">
+              <div className="flex justify-between px-2">
+                <p className="MDPText dark:text-white text-black ">
+                Christopher’s Gin                </p>
+                <p className="MDPText text-[#B5986D]"></p>
+              </div>
+              <img className="py-2 w-full" src="../MDLine.png" alt="" />
+            </div>
+            {/* 2 */}
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                Moet Chandon                </p>
+                Gordon’s
+                </p>
                 <p className="MDPText  py-4 text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
             </div>
+            {/* 3 */}
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Bottega Rose            
-                  </p>
+                Gordon’s Pink
+                </p>
+                <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
             </div>
+
+
+            <div className="pt-10">
+              <div className="flex justify-between px-2">
+                <p className="MDPText dark:text-white text-black ">
+                Hendrink’s
+                </p>
+                <p className="MDPText text-[#B5986D]"></p>
+              </div>
+              <img className="py-2 w-full" src="../MDLine.png" alt="" />
+            </div>
+            {/* 2 */}
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                Belaire               </p>
+                Rhubarb Gin
+                </p>
+                <p className="MDPText  py-4 text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
             </div>
+            {/* 3 */}
+           
           </div>
         </div>
       </div>
@@ -187,4 +238,4 @@ const Wines = () => {
   );
 };
 
-export default Wines;
+export default ShotsGin;
