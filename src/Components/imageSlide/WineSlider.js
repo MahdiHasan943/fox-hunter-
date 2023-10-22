@@ -94,8 +94,8 @@ const WineSlider = () => {
         <div className="">
           <div className="border  py-10 mx-auto flex justify-center items-center  sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
-              className=" mx-auto  w-[95%]  my-auto h-[280px] "
-              src="../coctailslideImage.png"
+              className=" mx-auto sm:w-[300px] sm: h-full  sm:h-[350px]"
+              src="../images/coctailM.png"
               alt=""
             />
           </div>

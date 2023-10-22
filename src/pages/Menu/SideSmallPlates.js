@@ -33,7 +33,7 @@ const SideSmallPlates = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                HSweet Potato Fries
+                Sweet Potato Fries
                 </p>
                 <p className="MDPText  py-4 text-[#B5986D]"></p>
               </div>

@@ -20,7 +20,7 @@ const WineAndCoctail = () => {
           <div className="w-full md:w-[50%]">
             <div className="pl-2">
               <img
-                className="w-full  md:ml-0   md:w-[450px] sm:h-[600px]"
+                className="w-full  md:ml-0   sm:h-[600px]"
                 src="../wineCoctailBar.png"
                 alt=""
               />

@@ -47,7 +47,7 @@ const Continental = () => {
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                MaAfrican Spiced Chicken Suya
+                African Spiced Chicken Suya
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>

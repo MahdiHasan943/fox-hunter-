@@ -390,7 +390,7 @@ const HomePageMenu = () => {
            Drinks & Cocktails
          </p>
          <p className=" text-[14px] sm:text-[18px] text-stone-950 dark:text-white  my-8">
-           We offer variety of deals throughout the week at fox hut <br className="hidden sm:block" />
+           We offer variety of deals throughout the week at fox hut 
 bar. To be the first to know follow us on social media.
          </p>
          <div className="flex mt-20 gap-4 sm:gap-10 justify-center">
