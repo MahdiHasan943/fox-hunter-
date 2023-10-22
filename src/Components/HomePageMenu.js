@@ -241,7 +241,7 @@ const HomePageMenu = () => {
   ];
   return (
     <PhotoProvider>
-      <div className="md:flex items-center pt-20 md:pt-[100px]  pb-20 h-full overflow-hidden ">
+      <div className="lg:flex  items-center pt-20 md:pt-[100px]  pb-20 h-full overflow-hidden ">
         <div className="relative h-full  md:w-[30%]">
           <h1 className="text-[36px] lg:text-[60px] sm:text-[40px]   text-center   lg:text-end mr-4 dark:text-white text-black font-bold">
             Our Menu
@@ -373,24 +373,24 @@ const HomePageMenu = () => {
             </Swiper>
           </div>
         </div>
-        <div className="w-full  mt-[-230px] md:mt-[0px] md:w-[70%] h-[100%]">
+        <div className="w-full  mt-[-230px] mx-auto lg:mt-[0px] md:w-[70%] h-[100%]">
           <PhotoView src="./images/menuright.png">
             <img
-              className=" w-[969px] sm:h-[821px]"
+              className=" w-[969px]  lg:h-[821px]"
               src="./images/menuright.png"
               alt=""
             />
           </PhotoView>
         </div>
         {/* 3 */}
-        <div className="">
+        <div className="mx-auto px-4 xl:mr-[100px]  ">
         <div className="px-4 sm:pr-10 py-20 ">
          
          <p className=" text-stone-950 dark:text-white text-[22px] sm:text-[36px] sm:my-8">
            Drinks & Cocktails
          </p>
          <p className=" text-[14px] sm:text-[18px] text-stone-950 dark:text-white  my-8">
-           We offer variety of deals throughout the week at fox hut <br />
+           We offer variety of deals throughout the week at fox hut <br className="hidden sm:block" />
 bar. To be the first to know follow us on social media.
          </p>
          <div className="flex mt-20 gap-4 sm:gap-10 justify-center">
