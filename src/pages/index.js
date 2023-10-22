@@ -103,8 +103,8 @@ We also have wine, Shots & Liqueurs, Passion Blend, Pina Colada, Margarita, Mait
       <HomePageMenu></HomePageMenu>
 
       {
-        currentTheme === 'dark'?      <img className="px-4 sm:px-16 mb-10 lg:ml-[50px]" src="/images/foxbutbarrntertainmentrooms.png" alt="" />
-:          <img className="px-4 mb-10 sm:px-16 lg:ml-[50px]" src="/images/EntertainmentRooms.png" alt="" />
+        currentTheme === 'dark'?      <img className="px-4 w-[85%]  sm:w-auto sm:px-16 mb-10 lg:ml-[50px]" src="/images/foxbutbarrntertainmentrooms.png" alt="" />
+:          <img className="px-4 w-[85%]  sm:w-auto mb-10 sm:px-16 lg:ml-[50px]" src="/images/EntertainmentRooms.png" alt="" />
 
       }
       <div className="overflow-hidden sm:w-[95%] mx-auto">
