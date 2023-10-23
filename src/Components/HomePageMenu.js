@@ -241,8 +241,8 @@ const HomePageMenu = () => {
   ];
   return (
     <PhotoProvider>
-      <div className="lg:flex  items-center pt-20 md:pt-[100px]  pb-20 h-full overflow-hidden ">
-        <div className="relative h-full  md:w-[30%]">
+      <div className="lg:flex justify-center  items-center pt-20 md:pt-[100px]  pb-20 h-full overflow-hidden ">
+        <div className="relative h-full  md:w-[30%] xl:w-[25%]">
           <h1 className="text-[36px] lg:text-[60px] sm:text-[40px]   text-center   lg:text-end mr-4 dark:text-white text-black font-bold">
             Our Menu
           </h1>
@@ -373,23 +373,21 @@ const HomePageMenu = () => {
             </Swiper>
           </div>
         </div>
-        <div className="w-full  mt-[-230px] mx-auto lg:mt-[0px] md:w-[70%] h-[100%]">
+        <div className="w-full lg:flex items-center gap-20 justify-center  mt-[-230px] mx-auto lg:mt-[0px] md:w-[70%] xl:w-[75%] h-[100%]">
           <PhotoView src="./images/menuright.png">
             <img
-              className=" w-[969px]  lg:h-[821px]"
+              className=" w-[908px]  lg:h-[645px]"
               src="./images/menuright.png"
               alt=""
             />
           </PhotoView>
-        </div>
-        {/* 3 */}
-        <div className="mx-auto px-4 xl:mr-[100px]  ">
+          <div className="mx-auto  right-0 px-4 md:w-[450px]  ">
         <div className="px-4 sm:pr-10 py-20 ">
          
          <p className=" text-stone-950 dark:text-white text-[22px] sm:text-[36px] sm:my-8">
            Drinks & Cocktails
          </p>
-         <p className=" text-[14px] sm:text-[18px] text-stone-950 dark:text-white  my-8">
+         <p className=" text-[14px] sm:text-[14px] text-stone-950 dark:text-white  my-8">
            We offer variety of deals throughout the week at fox hut 
 bar. To be the first to know follow us on social media.
          </p>
@@ -428,6 +426,9 @@ bar. To be the first to know follow us on social media.
          </div>
        </div>
         </div>
+        </div>
+        {/* 3 */}
+      
       </div>
     </PhotoProvider>
   );
