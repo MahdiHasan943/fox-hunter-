@@ -246,7 +246,7 @@ const HomePageMenu = () => {
           <h1 className="text-[36px] lg:text-[60px] sm:text-[40px]   text-center   lg:text-end mr-4 dark:text-white text-black font-bold">
             Our Menu
           </h1>
-          <div className=" sm:w-auto  md:mr-[-300px] h-[1000px] sm:h-[900px]    lg:mr-[-200px]">
+          <div className=" sm:w-auto  md:mr-[-300px] h-[1000px] sm:h-[900px]    ">
             <Swiper
               className="relative"
               modules={[Navigation, Pagination, A11y]}
@@ -258,7 +258,7 @@ const HomePageMenu = () => {
                   <SwiperNavButtons></SwiperNavButtons>
 
                   <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px] h-[550px]  sm:h-auto px-10 lg:py-20 rounded-2xl bg-[#C18260]">
-                    <h4 className=" menuCardTitle font-popping dark:text-white mt-5 lg:mb-6 font-bold text-[34px] sm:text-[40px] text-black">
+                    <h4 className=" menuCardTitle sm:px-10 font-popping dark:text-white mt-5 lg:mb-6 font-bold text-[34px] sm:text-[40px] text-black">
                       {menuCard?.title}
                     </h4>
                     <div className="flex sm:px-10 mt-[10px] sm:mt-[20px] items-center justify-between">
