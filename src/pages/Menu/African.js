@@ -12,13 +12,32 @@ const African = () => {
           AFRICAN SECTION        </h1>
         </div>
       </div>
-      <div className=" py-20  flex items-center px-6   sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
+      <div className=" pt-20  flex items-center px-6   sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
         <div className="">
           <p className="mealDetailsText pb-[100px] underline-offset-[20px]">
-          African Dishes          </p>
-
+            African Dishes          </p>
+      
         </div>
+        
+      </div>
+        
+      <div className="pb-10 px-6   sm:pl-[50px] lg:pl-[100px] xl:pl-[170px] grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 ">
+            <div className="flex  items-center"><p className="font-popping text-[34px]">Grilled Tilapia Fish</p></div>
+            <div className="flex justify-center items-center w-full"><img className="mx-auto" src="../images/telepia.png" alt="" /></div>
+        {/* 2     */}
+        <div className="flex  items-center"><p className="font-popping text-[34px]">Jollof Rice with Plantain</p></div>
+            <div className="flex justify-center items-center w-full"><img className="mx-auto" src="../images/joloRice.png" alt="" /></div>
+            
+        {/* 3 */}
+        <div className="flex  items-center"><p className="font-popping text-[34px]">Chicken Suya</p></div>
+            <div className="flex justify-center items-center w-full"><img className="mx-auto" src="../images/chicken.png" alt="" /></div>
+            
+        {/* 4 */}
+        <div className="flex  items-center"><p className="font-popping text-[34px]">Beef Suya</p></div>
+            <div className="flex justify-center items-center w-full"><img className="mx-auto" src="../images/beefSuya.png" alt="" /></div>
+            
           </div>
+
          
     </>
   );
