@@ -48,7 +48,7 @@
     background-image: url("../../public/images/continentalHeroBg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center,top;
     width: 100%;
 
 }
@@ -94,8 +94,9 @@
     background-image: url("../../public/images/sidesHero.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center,top;
     width: 100%;
+    object-fit: cover;
 }
 .sandWichHero{
     background-image: url("../../public/images/sandWichHero.png");

@@ -5,7 +5,7 @@ const Continental = () => {
   return (
     <>
       {" "}
-      <div className={`${style.Continental} h-[550px] relative`}>
+      <div className={`${style.Continental} h-[550px] lg:h-[800px] relative`}>
        <div className="absolute bg-[#121212] opacity-[0.1] top-0 left-0 h-full w-full"></div>
               <div className=" flex justify-center h-full items-center">
           <h1 className="text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]">
