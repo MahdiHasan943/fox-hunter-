@@ -56,7 +56,7 @@ const Softdrinks = () => {
             {/* 4 */}
             <div className="">
               <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">Glass of Juice</p>
+                <p className="MDPText dark:text-white text-black ">Juice</p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
@@ -64,7 +64,7 @@ const Softdrinks = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                   JuGlass of Soda
+                    Soda
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
@@ -74,7 +74,7 @@ const Softdrinks = () => {
             {/* 5 */}
             <div className="pb-10">
               <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">Glass of Lemonade </p>
+                <p className="MDPText dark:text-white text-black ">Lemonade </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
@@ -82,7 +82,7 @@ const Softdrinks = () => {
 
             <div className="">
               <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">Glass of Coke </p>
+                <p className="MDPText dark:text-white text-black ">Coke </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />

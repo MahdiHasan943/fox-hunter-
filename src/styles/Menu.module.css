@@ -82,6 +82,13 @@
     background-position: center;
     width: 100%;
 }
+.Africans{
+    background-image: url("../../public/images/africaHero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
 
 .sidesHero{
     background-image: url("../../public/images/sidesHero.png");

@@ -90,7 +90,7 @@ const RoomSlide = () => {
                     <figure className='relative'>
                                           <img src="./images/foxhutslide2.png" alt="Sevilla, Spain" />
                                           <div className="absolute w-full top-0 left-0 py-4 flex justify-center">
-                                          <p className="  font-popping  lg:text-[30px] font-bold text-white text-center">FOX HUT SHISHA ROOM</p>
+                                          <p className="  font-popping  lg:text-[30px] font-bold text-white text-center">FOX HUT SHISHA GARDEN</p>
 
                                           </div>
                       {/* <figcaption>
@@ -129,7 +129,7 @@ const RoomSlide = () => {
                     <figure className='relative'>
                                           <img src="./images/foxhutslide2.png" alt="Valldemossa, Spain" />
                                           <div className="absolute w-full top-0 left-0 py-4 flex justify-center">
-                                          <p className="  font-popping  lg:text-[30px] font-bold text-white text-center">FOX HUT SHISHA ROOM</p>
+                                          <p className="  font-popping  lg:text-[30px] font-bold text-white text-center">FOX HUT SHISHA GARDEN</p>
 
                                           </div>
                       {/* <figcaption>

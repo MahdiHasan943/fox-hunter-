@@ -182,6 +182,26 @@ const Menu = () => {
               </Link>
             </div>
           </div>
+          {/* 9 */}
+          <div className="px-10 ">
+            <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
+              <img
+                className="w-full mx-auto     h-[460px]  sm:h-[514px] "
+                src="../images/africaM.png"
+                alt=""
+              />
+            </div>
+            <p className="text-[#B5986D] text-center pt-10 pb-4 font-bold text-[25px]">
+            African Section            </p>
+            <div className="text-center">
+              <Link
+                href="/Menu/African"
+                className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
+              >
+                View menu
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
 

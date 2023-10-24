@@ -65,23 +65,23 @@ const Footer = () => {
                 </a>
               </div>
               <div className="lg:ml-[60px] xl:ml-[80px] 2xl:ml-[100px]">
-                <img className="py-4" src="/../BT.png" alt="" />
+                <img className="py-4" src="/../images/tntLogo.png" alt="" />
                 <img className="my-8" src="/../Sky.png" alt="" />
               </div>
             </div>
           </div>
           <div className="">
-            <p className="text-5xl text-center py-4 font-bold ">Opening hours:</p>
+            <p className="text-5xl text-center py-4 font-bold ">Opening Hours:</p>
             <div className="text-3xl sm:text-1xl xl:text-3xl">
               <div className="flex items-center gap-6 justify-center ">
                 <div className="">
-                  <p>        Monday </p>
-                  <p>Tuesday</p>
-                  <p>Wednesday</p>
-                  <p>Thursday</p>
+                  <p>      Monday – Wednesday </p>
+                  <p>Thursday –</p>
+                  <p>Friday – Saturday</p>
+                  {/* <p>Thursday</p>
                   <p>  Friday  </p>
                   <p> Saturday</p>
-                  <p>Sunday </p>
+                  <p>Sunday </p> */}
 
 
                 
@@ -89,13 +89,15 @@ const Footer = () => {
 
                 <div className="">
 
-                  <p>7:00 — 0:00</p>
-                  <p>7:00 — 0:00</p>
-                  <p>7:00 — 0:00</p>
-                  <p>7:00 — 4:00</p>
+                  <p>10:00 – 23:00
+</p>
+                  <p>10:00 – 00:00
+</p>
+                  <p>10:00 – 03:00</p>
+                  {/* <p>7:00 — 4:00</p>
                   <p>7:00 — 4:00</p>
                   <p>9:00 — 4:00</p>
-                  <p> 12:00 — 23:00</p>
+                  <p> 12:00 — 23:00</p> */}
                   
                 </div>
               </div>

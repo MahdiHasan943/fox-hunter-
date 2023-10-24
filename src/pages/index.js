@@ -43,33 +43,26 @@ export default function Home() {
           <h2 className="underline underline-offset-4 font-popping text-[48px] font-bold decoration-white text-center">
             About Us
           </h2>
-          <div className="w-full mt-6 px-6 grid grid-cols-1 gap-20 lg:grid-cols-3 lg:mt-20 lg:px-10">
+          <div className="w-full mt-6 px-6 grid grid-cols-1 gap-20 md:grid-cols-2 2xl:grid-cols-3 lg:mt-20 lg:px-10">
             <p className="font-popping  leading-[22px] tracking-wider sm:w-[498px] mx-auto text-[16px] text-[#fff]">
-              Right opposite Leicester’s main train station, Hind & PB Lounge is
-              a gastro pub fit for breakfast, lunch and dinner. On London Road,
-              it’s one of the most popular spots in central Leicester thanks to
-              classic British pub food alongside other international favourites,
-              a buzzing atmosphere, well-stocked bar and regular events. Whether
-              you just want to take the edge off and relax with a coffee or go a
-              bit crazy in the early hours, Hind & PB Lounge is fit for
-              whatever.
+            FoxHut Bar is a great Pub and Bar, Located on Welford Road.
+Few minutes away from Leicester Tigers and Kings Power stadium. it’s one of the most popular
+Spots in central Leicester. Foxhut Bar is a gastro pub Fit for breakfast, lunch and dinner. Thanks to classic British pub food alongside other International favourites. A buzzing atmosphere, well-stocked bar and
+Regular events. 
             </p>
 
             <p className="font-popping  leading-[22px] tracking-wider sm:w-[498px] mx-auto text-[16px] text-[#fff]">
-            Serving classic British pub food alongside other international favourites. Starters, sides, main, steaks, dessert and lots more. 
-
-We also have wine, Shots & Liqueurs, Passion Blend, Pina Colada, Margarita, Maitai, Manhattan, Sex On The Beach, Vodka, Cosmopolitan,Classic Mojito, Woo – Woo, Passion Coconut, Blue Lagoon, Spirits, Soft Drinks & Juice, Glass Juice, Bottled Beers and lots more...
+            Whether you just want to take the edge off and relax with a coffee
+Or go a bit crazy in the early hours, Foxhut Bar is the place to be.
+Serving classic foods, Starters, sides, main, steaks, dessert, Continental and lots more.
+We also have Spirits, wines, champagne, Shots & Liqueurs, Cocktails and Soft drinks.
             </p>
 
 
             <p className="font-popping leading-[22px] tracking-wider sm:w-[498px] mx-auto text-[16px] text-[#fff]">
-              Serving classic British pub food alongside other international
-              favourites. Starters, sides, main, steaks, dessert and lots more.
-              We also have wine, Shots & Liqueurs, Passion Blend, Pina Colada,
-              Margarita, Maitai, Manhattan, Sex On The Beach, Vodka,
-              Cosmopolitan,Classic Mojito, Woo – Woo, Passion Coconut, Blue
-              Lagoon, Spirits, Soft Drinks & Juice, Glass Juice, Bottled Beers
-              and lots more...
+            FoxHut Bar, is a place that has it all including Live Sports. Gaming Section with Pool
+Table, Football Table and Darts Board.
+Foxhut Bar can be free booked for Private Events, Office Meetings, interviews and trainings with projector available.
             </p>
           </div>
         </div>
@@ -86,16 +79,21 @@ We also have wine, Shots & Liqueurs, Passion Blend, Pina Colada, Margarita, Mait
         </div>
             <div className="">
               <p className="dark:text-white text-[20px] mt-[20px] sm:mt-0 sm:text-[24px] sm:font-bold text-black ">
-                MONDAY – FRIDAY <br className="hidden lg:block" /> 7AM – 12NOON: FULL ENGLISH BREAKFAST WITH FREE BOTTOMLESS COFFEE
+              HAPPY HOUR – 5PM – 8PM <br className="hidden lg:block" /> SHISHA: MON TO THUR 4PM – 10PM, FRIDAY/SATURDAY 4PM – 2AM
 
-                <br className="hidden lg:block" /> 12NOON – 5PM: LUNCH DEALS
+                <br className="hidden lg:block" /> DJ NIGHT SATURDAY 9PM – 3AM
 
-                <br className="hidden lg:block" />5PM – 8PM: DINNER
+
+                <br className="hidden lg:block" />STUDENTS NIGHTS EVERY FRIDAYS. 8PM TILL LATE
+
+
+                
 
               </p>
               <p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">
-                OFFERS AND DISCOUNTS <br className="hidden lg:block" /> # HAPPY
-                HOUR: MONDAY – FRIDAY 5PM TO 8PM.
+              GAMES – FOOTBALL TABLE, POOL TABLE, DARTS.
+
+
               </p>
               
             </div>
