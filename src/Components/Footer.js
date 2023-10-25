@@ -65,8 +65,8 @@ const Footer = () => {
                 </a>
               </div>
               <div className="lg:ml-[60px] xl:ml-[80px] 2xl:ml-[100px]">
-                <img className="py-4" src="/../images/tntLogo.png" alt="" />
-                <img className="my-8" src="/../Sky.png" alt="" />
+                <img className="py-4 w-[150px] h-[65px]" src="/../images/tntLogo.png" alt="" />
+                <img className="my-4 py-4 w-[150px] h-[65px]" src="/../Sky.png" alt="" />
               </div>
             </div>
           </div>
