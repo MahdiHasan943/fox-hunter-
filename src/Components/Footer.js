@@ -112,8 +112,7 @@ const Footer = () => {
         <div className="  text-white pb-4 pt-8  px-4 sm:px-[60px]">
           <div className="lg:flex mt-[-300px] justify-center">
             <iframe
-              // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.6417318358876!2d-1.1274621230775388!3d52.63031812805569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877612323e18b85%3A0x443b8bc93e58d7ee!2sPassion%20Blend%20%26%20HindBar!5e0!3m2!1sen!2suk!4v1684181706068!5m2!1sen!2suk"
-              src="/../images/foxMap.png"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d254.54883713510935!2d-1.1332147672234092!3d52.62944041288066!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877612ee07b5519%3A0xc1f6272bc2292594!2sFOXHUT%20BAR%20%26%20KITCHEN!5e0!3m2!1sen!2suk!4v1698604394027!5m2!1sen!2suk"
               className="w-full h-[450px]  sm:w-[628px] sm:h-[570px] "
               // style="border:0;"
               allowfullscreen=""
