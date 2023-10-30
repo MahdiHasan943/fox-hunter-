@@ -48,7 +48,7 @@ body {
   opacity: 0.8;
 }
 .nav__link:hover {
-  color: #b1935e;
+  color: #fc6506;
 }
 .nav__brand {
   text-transform: capitalize;
@@ -101,9 +101,9 @@ body {
   .nav__link {
     color: white !important;
   }
-  .nav__link:hover {
+  /* .nav__link:hover {
     color: #aee22b;
-  }
+  } */
 
   .PB {
     font-family: "Poppins";
@@ -297,9 +297,9 @@ body {
 }
 
 .formBg{
-  background-image: url("../../public/images/foxmainhero.png");
+  background-image: url("../../public/images/newFoxMainheroBG.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position:center;
 
 }

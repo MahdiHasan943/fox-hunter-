@@ -394,32 +394,32 @@ bar. To be the first to know follow us on social media.
          <div className="flex mt-20 gap-4 sm:gap-10 justify-center">
            <a
              target="_blank"
-             href="https://www.facebook.com/passionblendbarleicester"
+             href="https://www.facebook.com/foxhutbar78"
            >
              <img src="./f.png" alt="" />
            </a>
 
-           <a target="_blank" href="https://twitter.com/passion_blend?lang=en">
+           <a target="_blank" href="https://twitter.com/foxhutbar?t=mHvWFuU9BZZSxgkxgk38ew&s=09">
              <img src="./twitter.png" alt="" />
            </a>
            <a
              target="_blank"
-             href="https://www.instagram.com/passionblendbar/?igshid=MzNlNGNkZWQ4Mg%3D%3D"
+             href="https://www.instagram.com/foxhutbar78?igshid=YTQwZjQ0NmI0OA"
            >
              <img src="./instra.png" alt="" />
            </a>
-           <a target="_blank" href="https://www.tiktok.com/@passionblendbar">
+           <a target="_blank" href="https://www.tiktok.com/@foxhutbar?_t=8gvExiSSLZo&_r=1">
              <img src="./tiktok.png" alt="" />
            </a>
            <a
              target="_blank"
-             href="https://www.snapchat.com/add/passionblendbar"
+             href="https://www.snapchat.com/add/foxhutbar?share_id=uYJQRtUbIrk&locale=en-GB"
            >
              <img src="./snap.png" alt="" />
            </a>
            <a
              target="_blank"
-             href="https://www.youtube.com/@passionblendbarchannel/videos"
+             href="https://www.youtube.com/@FoxHutBar"
            >
              <img src="./youtube.png" alt="" />
            </a>
