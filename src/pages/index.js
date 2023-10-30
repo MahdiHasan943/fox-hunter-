@@ -43,15 +43,15 @@ export default function Home() {
           <h2 className="underline underline-offset-4 font-popping text-[48px] font-bold decoration-white text-center">
             About Us
           </h2>
-          <div className="w-full mt-6 px-6 grid grid-cols-1 gap-20 md:grid-cols-2 2xl:grid-cols-3 lg:mt-20 lg:px-10">
-            <p className="font-popping  leading-[22px] tracking-wider sm:w-[498px] mx-auto text-[16px] text-[#fff]">
+          <div className="w-full mt-6 px-6 grid grid-cols-1 gap-20 md:grid-cols-2 xl:grid-cols-3 lg:mt-20 lg:px-10">
+            <p className="font-popping  leading-[22px] tracking-wider 2xl:w-[498px] mx-auto text-[16px] text-[#fff]">
             FoxHut Bar is a great Pub and Bar, Located on Welford Road.
 Few minutes away from Leicester Tigers and Kings Power stadium. it’s one of the most popular
 Spots in central Leicester. Foxhut Bar is a gastro pub Fit for breakfast, lunch and dinner. Thanks to classic British pub food alongside other International favourites. A buzzing atmosphere, well-stocked bar and
 Regular events. 
             </p>
 
-            <p className="font-popping  leading-[22px] tracking-wider sm:w-[498px] mx-auto text-[16px] text-[#fff]">
+            <p className="font-popping  leading-[22px] tracking-wider 2xl:w-[498px] mx-auto text-[16px] text-[#fff]">
             Whether you just want to take the edge off and relax with a coffee
 Or go a bit crazy in the early hours, Foxhut Bar is the place to be.
 Serving classic foods, Starters, sides, main, steaks, dessert, Continental and lots more.
@@ -59,7 +59,7 @@ We also have Spirits, wines, champagne, Shots & Liqueurs, Cocktails and Soft dri
             </p>
 
 
-            <p className="font-popping leading-[22px] tracking-wider sm:w-[498px] mx-auto text-[16px] text-[#fff]">
+            <p className="font-popping leading-[22px] tracking-wider 2xl:w-[498px] mx-auto text-[16px] text-[#fff]">
             FoxHut Bar, is a place that has it all including Live Sports. Gaming Section with Pool
 Table, Football Table and Darts Board.
 Foxhut Bar can be free booked for Private Events, Office Meetings, interviews and trainings with projector available.
