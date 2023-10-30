@@ -113,8 +113,7 @@ const Footer = () => {
           <div className="lg:flex mt-[-300px] justify-center">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d254.54883713510935!2d-1.1332147672234092!3d52.62944041288066!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877612ee07b5519%3A0xc1f6272bc2292594!2sFOXHUT%20BAR%20%26%20KITCHEN!5e0!3m2!1sen!2suk!4v1698604394027!5m2!1sen!2suk"
-              className="w-full h-[450px]  sm:w-[628px] sm:h-[570px] "
-              // style="border:0;"
+              className="w-full h-[450px] border-0 sm:w-[628px] sm:h-[570px] "
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"

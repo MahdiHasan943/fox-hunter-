@@ -23,6 +23,10 @@ module.exports = {
       // => @media (min-width: 1280px) { ... }
 
       '2xl': '1536px',
+      '4xl': '1586px',
+      '55xl': '1750px',
+
+
       // => @media (min-width: 1536px) { ... }
     }
     ,  fontFamily: {

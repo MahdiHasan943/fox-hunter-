@@ -246,7 +246,7 @@ const HomePageMenu = () => {
           <h1 className="text-[36px] lg:text-[60px] sm:text-[40px]   text-center   lg:text-end mr-4 dark:text-white text-black font-bold">
             Our Menu
           </h1>
-          <div className=" sm:w-auto  md:mr-[-300px] h-[1000px] sm:h-[900px]    ">
+          <div className=" sm:w-auto  md:mr-[-300px] xl:mr-[-320px]  4xl:mr-[-300px] h-[1000px] sm:h-[900px]    ">
             <Swiper
               className="relative"
               modules={[Navigation, Pagination, A11y]}
@@ -373,16 +373,16 @@ const HomePageMenu = () => {
             </Swiper>
           </div>
         </div>
-        <div className="w-full lg:flex items-center gap-20 justify-center  mt-[-230px] mx-auto lg:mt-[0px] md:w-[70%] xl:w-[75%] h-[100%]">
+        <div className="w-full lg:flex items-center 55xl:gap-20 justify-center  mt-[-230px] mx-auto lg:mt-[0px] md:w-[70%] xl:w-[75%] h-[100%]">
           <PhotoView src="./images/menuright.png">
             <img
-              className=" w-[908px]  lg:h-[645px]"
+              className="2xl:w-[850px] 55xl:w-[908px]  lg:h-[645px]"
               src="./images/menuright.png"
               alt=""
             />
           </PhotoView>
           <div className="mx-auto  right-0 px-4 md:w-[450px]  ">
-        <div className="px-4 sm:pr-10 py-20 ">
+        <div className="px-4  sm:pr-10 py-20 ">
          
          <p className=" text-stone-950 dark:text-white text-[22px] sm:text-[36px] sm:my-8">
            Drinks & Cocktails
@@ -391,7 +391,7 @@ const HomePageMenu = () => {
            We offer variety of deals throughout the week at fox hut 
 bar. To be the first to know follow us on social media.
          </p>
-         <div className="flex mt-20 gap-4 sm:gap-10 justify-center">
+         <div className="flex mt-20 gap-4 4xl:gap-10 justify-center">
            <a
              target="_blank"
              href="https://www.facebook.com/foxhutbar78"
