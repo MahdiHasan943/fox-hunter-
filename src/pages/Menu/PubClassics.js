@@ -132,21 +132,9 @@ and accompanied with homemade hand cut chips
             </div>
 
             {/* 4 */}
-            <div className="py-20">
-              <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">
-                  PeppCaesar Salad
-                </p>
-                <p className="MDPText text-[#B5986D]"></p>
-              </div>
-              <img className="py-2 w-full" src="../../MDLine.png" alt="" />
-
-              <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-              with onion, lettuce, parmesan, croutons Caesar dressing,
-              </p>
-            </div>
+       
             {/* 5 */}
-            <div className="">
+            <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
                 Caesar Salad                </p>

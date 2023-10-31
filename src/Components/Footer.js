@@ -45,7 +45,7 @@ const Footer = () => {
         <div className="sm:w-[50%] lg:pt-[150px] lg:flex items-center justify-between mx-auto  ">
           <div className="">
             <div className="flex  items-center justify-between py-6  gap-4">
-              <div className="bg-[#1DA1F2] rounded-md p-4">
+              {/* <div className="bg-[#1DA1F2] rounded-md p-4">
                 {" "}
                 <a href="https://twitter.com/passion_blend?lang=en">
                   <BsTwitter></BsTwitter>
@@ -63,8 +63,8 @@ const Footer = () => {
                 <a href="https://www.instagram.com/passionblendbar/?hl=en">
                   <BsInstagram></BsInstagram>
                 </a>
-              </div>
-              <div className="lg:ml-[60px] xl:ml-[80px] 2xl:ml-[100px]">
+              </div> */}
+              <div className="lg:ml-[60px] xl:ml-[80px]">
                 <img className="py-4 w-[150px] h-[65px]" src="/../images/tntLogo.png" alt="" />
                 <img className="my-4 py-4 w-[150px] h-[65px]" src="/../Sky.png" alt="" />
               </div>

@@ -225,9 +225,9 @@ const HomePageMenu = () => {
       p2Text: "Chicken, bacon lettuce and tomato  with mayo",
       p2Price: " ",
 
-      p3Title: "  Baileys Bread and Butter Pudding",
-      p3Text: "Served with vanilla ice cream",
-      p3Price: " ",
+      // p3Title: "  Baileys Bread and Butter Pudding",
+      // p3Text: "Served with vanilla ice cream",
+      // p3Price: " ",
 
       p4Title: "Tuna Melt",
       p4Text:

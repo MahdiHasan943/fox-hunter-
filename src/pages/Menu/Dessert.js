@@ -43,17 +43,7 @@ const Dessert = () => {
               </p>
             </div>
             {/* 3 */}
-            <div className="">
-              <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">
-                Butter Pudding                </p>
-                <p className="MDPText text-[#B5986D]"></p>
-              </div>
-              <img className="py-2 w-full" src="../../MDLine.png" alt="" />
-
-              <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-              </p>
-            </div>
+      
 
             {/* 4 */}
             <div className="py-20">
