@@ -3,8 +3,8 @@ const Vodka = () => {
   return (
     <div className="">
       <div
-        className="h-[550px] bg-no-repeat lg:h-[650px]  bg-cover bg-full bg-center w-full"
-        style={{ backgroundImage: `url("../images/vodkaHero.png")` }}
+        className="h-[550px] bg-no-repeat lg:h-[850px]  bg-cover bg-full bg-center w-full"
+        style={{ backgroundImage: `url("../images/newvodkavM.png")` }}
       >
         <div className=" flex justify-center h-full items-center">
           <h1 className="text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]">

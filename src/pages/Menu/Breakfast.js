@@ -35,7 +35,7 @@ const Breakfast = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                VEGETARIAN BREAKFAST     (V)           </p>
+                VEGETARIAN BREAKFAST           </p>
                 <p className="MDPText  py-4 text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
@@ -53,7 +53,7 @@ const Breakfast = () => {
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
               <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-              opt   fried, poached, scrambled
+              (opt)   fried, poached, scrambled
               </p>
             </div>
 
@@ -61,7 +61,7 @@ const Breakfast = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-              	AVOCADO ON TOAST (V)
+              	AVOCADO ON TOAST 
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>

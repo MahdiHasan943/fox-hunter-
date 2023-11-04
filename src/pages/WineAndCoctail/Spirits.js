@@ -5,7 +5,7 @@ const Spirits = () => {
     <div className="">
       <div
         className="h-[600px] lg:h-[850px] bg-no-repeat  dark:opacity-[0.9] bg-cover  bg-center   w-full"
-        style={{ backgroundImage: `url("../images/spiritsHero.png")` }}
+        style={{ backgroundImage: `url("../images/NewvodkaM.png")` }}
       >
         <div className=" flex justify-center h-full items-center">
           <h1 className="text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]">
