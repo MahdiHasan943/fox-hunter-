@@ -116,9 +116,9 @@ const WineSlider = () => {
       <div className="project h-[600px]  flex justify-center mt-[100px]       ">
         <div className="">
           <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
-            <img
-              className="mx-auto sm:w-[300px] sm: h-full  sm:h-[350px] "
-              src="../images/spiritsMenu.png"
+          <img
+              className="mx-auto sm:w-[300px] sm: h-full  sm:h-[350px]"
+              src="../images/NewvodkaM.png"
               alt=""
             />
           </div>
@@ -161,7 +161,7 @@ const WineSlider = () => {
         <div className="">
           <div className="border py-10 mx-auto  flex items-center justify-center sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
-              className="mx-auto  sm:w-[300px] h-full  sm:h-[300px] "
+              className="mx-auto  sm:w-[320px] object-cover scale-105 h-full  sm:h-[380px] "
               src="../images/draftM.png"
               alt=""
             />
@@ -184,7 +184,7 @@ const WineSlider = () => {
         <div className="">
           <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
-              className="mx-auto w-full sm:w-[300px] sm:sm: h-full  sm:h-[350px] "
+              className="mx-auto w-full sm:w-[320px] object-cover scale-105 sm:sm: h-full  sm:h-[350px] "
               src="../images/WinesMenu.jpg"
               alt=""
             />
@@ -207,7 +207,7 @@ const WineSlider = () => {
         <div className="border  py-10 mx-auto flex justify-center items-center  sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
               className="mx-auto sm:w-[300px] sm: h-full  sm:h-[350px]"
-              src="../images/NewvodkaM.png"
+              src="../images/newvodkavM.png"
               alt=""
             />
           </div>

@@ -74,7 +74,7 @@ Foxhut Bar can be free booked for Private Events, Office Meetings, interviews an
       <div className="sm:flex mt-[50px] items-center gap-[100px]  lg:ml-[50px] 2xl:ml-[200px] px-6">
             <div className="">
               <h4 className="text-[36px] lg:ml-[-44px] lg:text-[60px] sm:text-[40px]     lg:text-end mr-4 dark:text-white text-black font-bold">
-                Meal Deals
+              Weekly Activities
               </h4>
         </div>
             <div className="">

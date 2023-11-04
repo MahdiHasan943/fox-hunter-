@@ -18,7 +18,7 @@ const HomePageMenu = () => {
 
       p2Title: " Fox Hut Homemade Beef Burger",
       p2Text:
-        "lettuce, tomato, onion, cheese, bacon,  mayo, topped with pickleand accompanied  with homemade hand cut chips ",
+        "lettuce, tomato, onion, cheese, bacon,  mayo, topped with pickle and accompanied  with homemade hand cut chips ",
       p2Price: " ",
 
       p3Title: " Classic Beef Burger",
@@ -40,9 +40,9 @@ const HomePageMenu = () => {
       id: "2",
       title: "Continental",
 
-      p1Title: "Jollof Rice with Plantain & Salad (opt)",
+      p1Title: "Jollof Rice with Plantain & Salad ",
       p1Text:
-        "chicken, assorted meat, fish",
+        "(opt) chicken, assorted meat, fish",
       p1Price: "",
 
       p2Title: " Student Jollof Rice with Chicken",
@@ -101,15 +101,15 @@ const HomePageMenu = () => {
       p1Text: "pork sausage, bacon, tomato, baked beans, mushrooms, and eggs with side toast",
       p1Price: "",
 
-      p2Title: "Veggie Breakfast",
-      p2Text: "eggs, mushrooms, tomato and baked beans with toast",
+      p2Title: "VEGETARIAN BREAKFAST",
+      p2Text: "eggs, mushrooms, tomato and baked beans with toast homemade hashbrown",
       p2Price: " ",
 
       p3Title: " Egg on Toast (opt)",
       p3Text: "fried, poached, scrambled",
       p3Price: " ",
 
-      p4Title: "GAdvocado on Toast (V)",
+      p4Title: "	AVOCADO ON TOAST (V)",
       p4Text: " with garnish",
       p4Price: " ",
 
