@@ -71,7 +71,7 @@ const HomePageMenu = () => {
       id: "3",
       title: "Pizzas",
 
-      p1Title: "Fox Hut Pizza BBQ",
+      p1Title: "	FOX HUT PIZZA",
       p1Text: "BBQ base, chicken, beef, mushroom,  red onion, cheese, olives",
       p1Price: "",
 
@@ -105,8 +105,8 @@ const HomePageMenu = () => {
       p2Text: "eggs, mushrooms, tomato and baked beans with toast homemade hashbrown",
       p2Price: " ",
 
-      p3Title: " Egg on Toast (opt)",
-      p3Text: "fried, poached, scrambled",
+      p3Title: " Egg on Toast ",
+      p3Text: "(opt) fried, poached, scrambled",
       p3Price: " ",
 
       p4Title: "	AVOCADO ON TOAST (V)",
@@ -135,21 +135,21 @@ const HomePageMenu = () => {
       p2Text: "",
       p2Price: " ",
 
-      p3Title: "  Baileys Bread and Butter Pudding",
-      p3Text:
-        " ",
+      p3Title: " Sticky Toffee Pudding ",
+      p3Text:"with vanilla ice cream",
+        
       p3Price: " ",
 
-      p4Title: "Sticky Toffee Pudding",
+      p4Title: "",
       p4Text:
         " ",
       p4Price: " ",
 
-      p5Title: "with vanilla ice cream",
-      p5Text: "  ",
+      p5Title: "Belgium Waffle",
+      p5Text: " with vanilla ice cream ",
       p5Price: " ",
-      p6Title: "Belgium Waffle",
-      p7Title:"with vanilla ice cream",
+      p6Title: "",
+      p7Title:"",
 
     },
     {

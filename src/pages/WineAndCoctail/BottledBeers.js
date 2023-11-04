@@ -157,6 +157,44 @@ const BottledBeers = () => {
                       </div>
                     </div>
       </div>
+      <div className=" py-20  flex items-center px-6   sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
+        <div className="">
+          <p className="mealDetailsText pb-[100px] underline-offset-[20px]">
+          Ready Drinks          </p>
+
+          <div className="xl:w-[960px] mx-auto">
+            <div className="">
+              <div className="flex justify-between px-2">
+                <p className="MDPText dark:text-white text-black ">
+                VK Blue
+                </p>
+                <p className="MDPText text-[#B5986D]"></p>
+              </div>
+              <img className="py-2 w-full" src="../MDLine.png" alt="" />
+            </div>
+            {/* 2 */}
+            <div className="py-20">
+              <div className="flex justify-between px-2">
+                <p className="MDPText dark:text-white text-black ">
+                VK Cherry 
+                </p>
+                <p className="MDPText  py-4 text-[#B5986D]"></p>
+              </div>
+              <img className="py-2 w-full" src="../MDLine.png" alt="" />
+            </div>
+            {/* 3 */}
+            <div className="">
+              <div className="flex justify-between px-2">
+                <p className="MDPText dark:text-white text-black ">
+                VK Ice
+                </p>
+                <p className="MDPText text-[#B5986D]"></p>
+              </div>
+              <img className="py-2 w-full" src="../MDLine.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
    
          
 
