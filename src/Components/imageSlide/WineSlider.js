@@ -182,9 +182,9 @@ const WineSlider = () => {
 
       <div className="project h-[600px]  flex justify-center mt-[100px]       ">
         <div className="">
-          <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
+          <div className="border  py-10 mx-auto   sm:w-[400px] overflow-hidden h-[420px]  my-auto border-[#B5986D]">
             <img
-              className="mx-auto w-full sm:w-[320px] object-cover scale-105 sm:sm: h-full  sm:h-[350px] "
+              className="mx-auto w-full  sm:w-[350px] object-cover  sm:sm:  mt-[-15px] h-[400px] "
               src="../images/WinesMenu.jpg"
               alt=""
             />
