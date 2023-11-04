@@ -39,7 +39,8 @@ export default function Home() {
           <p className="where my-4">Where The World comes to DANCE & dine</p>
         </div>
 
-        <div className="absolute bottom-0 z-50 w-full bg-[#C182608F] py-8 lg:h-[650px]">
+        <div className="absolute bottom-0 flex  items-center z-50 w-full bg-[#C182608F] py-8 lg:h-[650px]">
+          <div className="w-full">
           <h2 className="underline underline-offset-4 font-popping text-[48px] font-bold decoration-white text-center">
             About Us
           </h2>
@@ -65,6 +66,7 @@ Table, Football Table and Darts Board.
 Foxhut Bar can be free booked for Private Events, Office Meetings, interviews and trainings with projector available.
             </p>
           </div>
+         </div>
         </div>
       </div>
       {/* 2 */}
