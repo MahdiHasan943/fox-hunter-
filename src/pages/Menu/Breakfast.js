@@ -35,13 +35,12 @@ const Breakfast = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                Veggie Breakfast
-                </p>
+                VEGETARIAN BREAKFAST     (V)           </p>
                 <p className="MDPText  py-4 text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
               <p className="MDSPText dark:text-[#ffffffb3] text-black">
-              eggs, mushrooms, tomato and baked beans with toast
+              eggs, mushrooms, tomato and baked beans with toast  homemade hashbrown
               </p>
             </div>
             {/* 3 */}
@@ -62,7 +61,7 @@ const Breakfast = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                Advocado on Toast (V)
+              	AVOCADO ON TOAST (V)
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>

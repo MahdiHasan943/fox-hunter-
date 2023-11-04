@@ -101,7 +101,7 @@ const HomePageMenu = () => {
       p1Text: "pork sausage, bacon, tomato, baked beans, mushrooms, and eggs with side toast",
       p1Price: "",
 
-      p2Title: "VEGETARIAN BREAKFAST",
+      p2Title: "VEGETARIAN BREAKFAST (V) ",
       p2Text: "eggs, mushrooms, tomato and baked beans with toast homemade hashbrown",
       p2Price: " ",
 
