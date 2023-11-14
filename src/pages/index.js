@@ -26,7 +26,7 @@ export default function Home() {
         <div className="absolute top-0 left-0 z-50 opacity-[0.2] h-[1500px] lg:h-[1898px] w-full bg-[#000] "></div>
         <img
           className="absolute top-0 left-0 h-[1500px] lg:h-[1898px] w-full"
-          src="/images/newFoxMainheroBG.jpg"
+          src="/images/updatedhero.png"
           alt=""
         />
         <div className="absolute z-50 top-[300px] lg:top-[500px] px-4 sm:px-0 sm:pl-[80px] lg:pl-[150px] xl:pl-[250px]">
