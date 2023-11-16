@@ -22,11 +22,11 @@ export default function Home() {
   return (
     <>
       {/* 1 */}
-      <div className="overflow-hidden relative h-[1650px] lg:h-[1898px]  flex items-center justify-start  ">
-        <div className="absolute top-0 left-0 z-50 opacity-[0.2] h-[1500px] lg:h-[1898px] w-full bg-[#000] "></div>
+      <div className="overflow-hidden relative h-[1500px] lg:h-[1698px]  flex items-center justify-start  ">
+        <div className="absolute top-0 left-0 z-50 opacity-[0.2] h-[1500px] lg:h-[1698px] w-full bg-[#000] "></div>
         <img
-          className="absolute top-0 left-0 h-[1500px] lg:h-[1898px] w-full"
-          src="/images/updatedhero.png"
+          className="absolute top-0 left-0 h-[1500px] lg:h-[1698px] w-full"
+          src="/images/newImageforHero.png"
           alt=""
         />
         <div className="absolute z-50 top-[300px] lg:top-[500px] px-4 sm:px-0 sm:pl-[80px] lg:pl-[150px] xl:pl-[250px]">

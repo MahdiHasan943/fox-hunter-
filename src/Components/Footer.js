@@ -143,11 +143,11 @@ const Footer = () => {
                 </p>
 
                 <div className=" relative parent  dark:text-white text-black ">
-                  Menu
-                  <div className="absolute child">
+                 <Link  href={'/Menu'}> Menu</Link>
+                  {/* <div className="absolute child">
                     <Link className="hover:text-[#b1935e]" href={"/Menu/GASTRO"}> GASTRO </Link>
                     <Link className="hover:text-[#b1935e]" href={"/Menu/CONTINENTAL"}>CONTINENTAL </Link>
-                  </div>
+                  </div> */}
                 </div>
                
 

@@ -115,14 +115,14 @@ const WineSlider = () => {
       {/* 3 */}
       <div className="project h-[600px]  flex justify-center mt-[100px]       ">
         <div className="">
-          <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
+          <div className="border  py-10 mx-auto flex justify-center items-center px-2   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
           <img
-              className="mx-auto sm:w-[300px] sm: h-full  sm:h-[350px]"
+              className="mx-auto "
               src="../images/NewvodkaM.png"
               alt=""
             />
           </div>
-          <p className="text-[24px] text-center text-[#B5986D]">Spirits</p>
+          <p className="text-[24px] text-center text-[#B5986D]"> Whisky, Brandy & Rum</p>
 
           <div className="flex justify-center">
             <Link
@@ -211,7 +211,7 @@ const WineSlider = () => {
               alt=""
             />
           </div>
-          <p className="text-[24px] text-center text-[#B5986D]">Vodka & Rum Bar</p>
+          <p className="text-[24px] text-center text-[#B5986D]">Vodka & Gin Bar</p>
           <div className="flex justify-center">
             <Link
               href={"/WineAndCoctail/Vodka"}
@@ -233,7 +233,7 @@ const WineSlider = () => {
               alt=""
             />
           </div>
-          <p className="text-[24px] text-center text-[#B5986D]">Shots Liquers & Gin</p>
+          <p className="text-[24px] text-center text-[#B5986D]"> Shots & Liquor</p>
           <div className="flex justify-center">
             <Link
               href={"/WineAndCoctail/ShotsGin"}
