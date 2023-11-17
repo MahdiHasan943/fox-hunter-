@@ -30,7 +30,7 @@ const WineAndCoctail = () => {
             <p className=" dark:text-white mx-auto  text-[32px] text-black">
               « Wine, when it is truly <br className="hidden md:block" /> wine,
               reveals the light <br className="hidden md:block" /> of matter to
-              arouse <br className="hidden md:block" /> that of man. It comes{" "}
+              arouse <br className="hidden md:block" /> the person in you. It comes{" "}
               <br className="hidden md:block" /> reveal our light part{" "}
               <br className="hidden md:block" /> and that is the real{" "}
               <br className="hidden md:block" /> drunkenness. »
