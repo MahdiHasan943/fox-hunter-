@@ -117,12 +117,12 @@ const WineSlider = () => {
         <div className="">
           <div className="border  py-10 mx-auto flex justify-center items-center px-2   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
           <img
-              className="mx-auto "
+              className="mx-auto rotate-90 "
               src="../images/NewvodkaM.png"
               alt=""
             />
           </div>
-          <p className="text-[24px] text-center text-[#B5986D]"> Whisky, Brandy & Rum</p>
+          <p className="text-[24px] text-center text-[#B5986D]"> Whiskey, Brandy & Rum</p>
 
           <div className="flex justify-center">
             <Link

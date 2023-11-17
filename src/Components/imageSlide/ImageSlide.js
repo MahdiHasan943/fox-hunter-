@@ -107,12 +107,12 @@ const ImageSlide = () => {
         }}
         navigation={{ clickable: true }}
         modules={[EffectCreative, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper mx-auto 2xl:w-[70%]"
       >
         {
           SlidesImages.map(slidesImage=> <SwiperSlide>
              <PhotoProvider>
-            <div className="flex justify-between lg:w-[90%] mx-auto   gap-4   sm:gap-8 items-center">
+            <div className="flex  justify-center   mx-auto   gap-4   sm:gap-[100px] items-center">
               <div className="">
                   <PhotoView 
               

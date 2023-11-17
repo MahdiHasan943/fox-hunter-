@@ -41,7 +41,7 @@ export default function Home() {
 
         <div className="absolute bottom-0 flex  items-center z-50 w-full bg-[#C182608F] py-8 lg:h-[650px]">
           <div className="w-full">
-          <h2 className="underline underline-offset-4 font-popping text-[48px] font-bold decoration-white text-center">
+          <h2 className="underline underline-offset-4 font-popping text-[48px] text-[white!important] font-bold decoration-white text-center">
             About Us
           </h2>
           <div className="w-full mt-6 px-6 grid grid-cols-1 gap-20 md:grid-cols-2 xl:grid-cols-3 lg:mt-20 lg:px-10">

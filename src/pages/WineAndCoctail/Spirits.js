@@ -9,7 +9,7 @@ const Spirits = () => {
       >
         <div className=" flex justify-center h-full items-center">
           <h1 className="text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]">
-          Whisky, Brandy & Rum         </h1>
+          Whiskey, Brandy & Rum        </h1>
         </div>
       </div>
 
