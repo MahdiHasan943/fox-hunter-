@@ -81,12 +81,12 @@ Foxhut Bar can be free booked for Private Events, Office Meetings, interviews an
         </div>
             <div className="">
               <p className="dark:text-white text-[20px] mt-[20px] sm:mt-0 sm:text-[24px] sm:font-bold text-black ">
-              HAPPY HOUR – 5PM – 8PM <br className="hidden lg:block" /> SHISHA: MON TO THUR 4PM – 10PM, FRIDAY/SATURDAY 4PM – 2AM
+              HAPPY HOUR – 5PM – 8PM <br className="" /> SHISHA: MON TO THUR 4PM – 10PM, FRIDAY/SATURDAY 4PM – 2AM
 
-                <br className="hidden lg:block" /> DJ NIGHT SATURDAY 9PM – 3AM
+                <br className=" " /> DJ NIGHT SATURDAY 9PM – 3AM
 
 
-                <br className="hidden lg:block" />STUDENTS NIGHTS EVERY FRIDAYS. 8PM TILL LATE
+                <br className=" " />STUDENTS NIGHTS EVERY FRIDAYS. 8PM TILL LATE
 
 
                 
