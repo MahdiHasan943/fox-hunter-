@@ -118,7 +118,7 @@ const WineSlider = () => {
           <div className="border  py-10 mx-auto flex justify-center items-center px-2   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
           <img
               className="mx-auto rotate-90 "
-              src="../images/NewvodkaM.png"
+              src="../images/newThreebottle.jpg"
               alt=""
             />
           </div>
