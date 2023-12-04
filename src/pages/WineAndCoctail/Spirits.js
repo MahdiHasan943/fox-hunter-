@@ -9,14 +9,14 @@ const Spirits = () => {
       >
         <div className=" flex justify-center h-full items-center">
           <h1 className="text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]">
-          Whiskey, Brandy & Rum        </h1>
+          Whisky, Brandy & Rum        </h1>
         </div>
       </div>
 
       <div className=" py-20  flex items-center px-6   sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
         <div className="">
           <p className="mealDetailsText pb-[100px] underline-offset-[20px]">
-          Whiskey          </p>
+          Whisky          </p>
 
           <div className="xl:w-[960px] mx-auto">
             <div className="">

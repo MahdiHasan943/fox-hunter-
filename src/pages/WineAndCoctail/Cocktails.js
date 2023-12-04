@@ -205,7 +205,7 @@ const Cocktails = () => {
 
             <div className="py-20">
               <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">Woo-Sex in the Garden</p>
+                <p className="MDPText dark:text-white text-black ">Sex in the Garden</p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />

@@ -122,7 +122,7 @@ const WineSlider = () => {
               alt=""
             />
           </div>
-          <p className="text-[24px] text-center text-[#B5986D]"> Whiskey, Brandy & Rum</p>
+          <p className="text-[24px] text-center text-[#B5986D]"> Whisky, Brandy & Rum</p>
 
           <div className="flex justify-center">
             <Link
