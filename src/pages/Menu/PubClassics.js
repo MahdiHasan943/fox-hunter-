@@ -199,7 +199,7 @@ and accompanied with homemade hand cut chips
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
               <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-              Served with with hand cut chips or salad
+              Served  with hand cut chips or salad
               </p>
             </div>
             {/* 5 */}

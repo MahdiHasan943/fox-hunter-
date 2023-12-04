@@ -25,6 +25,11 @@ export default function Home() {
       <div className="overflow-hidden relative h-[1500px] lg:h-[1698px]  flex items-center justify-start  ">
         <div className="absolute top-0 left-0 z-50 opacity-[0.5] h-[1500px] lg:h-[1698px] w-full bg-[#000] "></div>
         <div className="absolute w-full top-0 left-0">
+        {/* <img
+          className=" h-[1500px] lg:h-[1698px] mx-auto"
+          src="/images/foxhutHeroBg.png"
+          alt=""
+        /> */}
         <img
           className=" h-[1500px]  mx-auto"
           src="/images/foxhutHeroBg.png"
