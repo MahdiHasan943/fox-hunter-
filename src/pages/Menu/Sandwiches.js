@@ -50,8 +50,7 @@ const Sandwiches = () => {
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
               <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-              Grilled bacon with lettuce and tomato in a thick cut Sandwich 
-with mayo              </p>
+              Flacked tuna, mayo,  melted cheese with hand cut chips        </p>
             </div>
 
             {/* 4 */}

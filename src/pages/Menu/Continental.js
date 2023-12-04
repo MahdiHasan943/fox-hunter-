@@ -49,11 +49,11 @@ const Continental = () => {
                 <p className="MDPText dark:text-white text-black ">
                 African Spiced Chicken Suya
                 </p>
-                <p className="MDPText text-[#B5986D]"></p>
+                <p className="MDPText text-[#B5986D]">  </p>
               </div>
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
-              <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+              <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">Served with onions, tomato and spiced suya pepper
              
               </p>
             </div>
@@ -68,7 +68,7 @@ const Continental = () => {
               </div>
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
-              <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+              <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">Served with onions, tomato and spiced suya pepper
               </p>
             </div>
                       {/* 5 */}
@@ -81,7 +81,7 @@ const Continental = () => {
               </div>
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
-              <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+              <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">served with salad, mayo, bbq, ketchup with home made hand cut chips
               </p>
                       </div>
                       
@@ -95,7 +95,7 @@ const Continental = () => {
               </div>
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
-              <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+              <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">Served with salad, African spiced fish sauce and options of plantain or potato wedges
               </p>
             </div>
           </div>

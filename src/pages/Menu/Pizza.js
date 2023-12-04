@@ -28,7 +28,7 @@ const Pizza = () => {
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
               <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-              BBQ base, chicken, beef, mushroom, red onion, cheese, olives
+              BBQ base, chicken, beef, mushroom, red onion, cheese, olives Sweet corn,paprika
               </p>
             </div>
             {/* 2 */}
@@ -70,7 +70,7 @@ const Pizza = () => {
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
               <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-              tomato base, pepperoni, jalapeno, red anion, cheese
+              tomato base, pepperoni, jalapeno, red onions, cheese
               </p>
             </div>
                       {/* 5 */}

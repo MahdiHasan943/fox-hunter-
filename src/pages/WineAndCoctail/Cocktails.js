@@ -41,7 +41,7 @@ const Cocktails = () => {
               
             </div>
             {/* 3 */}
-            <div className="">
+            {/* <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">Maitai</p>
                 <p className="MDPText text-[#B5986D]"></p>
@@ -49,12 +49,12 @@ const Cocktails = () => {
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
 
               
-            </div>
+            </div> */}
 
            
          
             {/* 5 */}
-            <div className="py-20">
+            <div className="pb-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
                 Passion Blend
@@ -153,7 +153,7 @@ const Cocktails = () => {
            
          
             {/* 5 */}
-            <div className="py-20">
+            {/* <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
                 Cosmopolitan                </p>
@@ -162,10 +162,10 @@ const Cocktails = () => {
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
 
               
-            </div>
+            </div> */}
            
             
-            <div className="">
+            {/* <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
                 Mai Tai                </p>
@@ -174,7 +174,7 @@ const Cocktails = () => {
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
 
               
-            </div>
+            </div> */}
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
@@ -226,7 +226,7 @@ const Cocktails = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                White Russion                </p>
+                White Russian                </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
@@ -274,6 +274,14 @@ const Cocktails = () => {
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
             </div>
       
+            <div className="">
+              <div className="flex justify-between px-2">
+                <p className="MDPText dark:text-white text-black ">
+                Classic Pimms with Lemonade           </p>
+                <p className="MDPText text-[#B5986D]"></p>
+              </div>
+              <img className="py-2 w-full" src="../MDLine.png" alt="" />
+            </div>
 
          
 
@@ -309,7 +317,7 @@ const Cocktails = () => {
               
             </div>
             {/* 3 */}
-            <div className="">
+            {/* <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">Cosmopolitan</p>
                 <p className="MDPText text-[#B5986D]"></p>
@@ -317,12 +325,12 @@ const Cocktails = () => {
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
 
               
-            </div>
+            </div> */}
 
            
          
             {/* 5 */}
-            <div className="py-20">
+            <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
                 Blue Lagoon
@@ -344,6 +352,15 @@ const Cocktails = () => {
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
 
               
+            </div>
+
+            <div className="">
+              <div className="flex justify-between px-2">
+                <p className="MDPText dark:text-white text-black ">
+                Classic Pimms with Lemonade           </p>
+                <p className="MDPText text-[#B5986D]"></p>
+              </div>
+              <img className="py-2 w-full" src="../MDLine.png" alt="" />
             </div>
            
 

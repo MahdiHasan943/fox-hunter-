@@ -151,7 +151,7 @@ const Menu = () => {
               />
             </div>
             <p className="text-[#B5986D] text-center pt-10 pb-4 font-bold text-[25px]">
-            Sides & Small Plates
+            Sides Small Plates
             </p>
             <div className="text-center">
               <Link

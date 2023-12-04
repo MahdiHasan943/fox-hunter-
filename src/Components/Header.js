@@ -122,10 +122,10 @@ function Header() {
                 ? "text-[#fc6506] nav__link"
                 : "nav__link text-white	"
             } `}
-            href={"/WineAndCoctail/WineAndCoctail"}
+            href={"/WineAndCoctail/Drinks"}
             onClick={navToggle}
           >
-            <li className="nav__item">Wine & Cocktails </li>
+            <li className="nav__item">Drinks </li>
           </Link>
 
           <Link

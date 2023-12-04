@@ -80,7 +80,7 @@ const Breakfast = () => {
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
               <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-              pork sausage, bacon, tomato, baked beans, mushrooms and eggs with side toastcheese
+              pork sausage, bacon, tomato, baked beans, mushrooms and eggs with side toast
               </p>
                       </div>
                       

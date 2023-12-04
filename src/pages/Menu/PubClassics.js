@@ -120,7 +120,7 @@ and accompanied with homemade hand cut chips
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                Halloumi
+                Halloumi Burger
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
@@ -191,14 +191,15 @@ and accompanied with homemade hand cut chips
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                Piri-piri Chicken
+              	Peri-Peri
+
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
               <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-                toserved with hand cut chips or salad
+              Served with with hand cut chips or salad
               </p>
             </div>
             {/* 5 */}
@@ -215,17 +216,7 @@ and accompanied with homemade hand cut chips
               (opt) of breaded or grilled: lettuce, tomato, onion, ketchup, homemade chips
               </p>
             </div>
-            <div className="py-20">
-              <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">
-                Tomato Pasta                </p>
-                <p className="MDPText text-[#B5986D]"></p>
-              </div>
-              <img className="py-2 w-full" src="../../MDLine.png" alt="" />
-
-              <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-              served with cheese              </p>
-            </div>
+          
           </div>{" "}
         </div>
       </div>

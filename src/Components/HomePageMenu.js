@@ -52,19 +52,18 @@ const HomePageMenu = () => {
       p2Price: " ",
 
       p3Title: "  African Spiced Chicken Suya",
-      p3Text: " ",
+      p3Text: "Served with onions, tomato and spiced suya pepper ",
       p3Price: " ",
 
       p4Title: "African Spiced Beef Suya",
-      p4Text:
-        "",
+      p4Text:"Served with onions, tomato and spiced suya pepper",
       p4Price: " ",
       p5Title:"African Spiced Beef Suya Kebab",
-      p5Text:""
+      p5Text:"served with salad, mayo, bbq, ketchup with home made hand cut chips"
       // "sausage, fried onion, mash potatoes and  gravy" 
       ,
       p6Title: "On Bone Spice Grilled Tilapia Fish",
-      p6Text: " with salad, plantain, or potato wedges  and spicy fish sauce.",
+      p6Text: " Served with salad, African spiced fish sauce and options of plantain or potato wedges",
 
     },
     {
@@ -72,7 +71,7 @@ const HomePageMenu = () => {
       title: "Pizzas",
 
       p1Title: "	FOX HUT PIZZA",
-      p1Text: "BBQ base, chicken, beef, mushroom,  red onion, cheese, olives",
+      p1Text: "BBQ base, chicken, beef, mushroom,  red onion, cheese, olives, sweet corn and paprika",
       p1Price: "",
 
       p2Title: "Hawaii Pizza",
@@ -85,7 +84,7 @@ const HomePageMenu = () => {
       p3Price: " ",
 
       p4Title: "Pepperoni Pizza",
-      p4Text: " tomato base, pepperoni, jalapeno, red  anion, cheese",
+      p4Text: " tomato base, pepperoni, jalapeno, red onion, cheese",
       p4Price: " ",
 
       p5Title: "Vegetarian Pizza",
@@ -183,7 +182,7 @@ const HomePageMenu = () => {
     },
     {
       id: "7",
-      title: "Sides & Small Plates",
+      title: "Sides Small Plates",
 
       p1Title: "Breaded Mushrooms (V)",
       p1Text:"served with garlic mayo"
@@ -231,7 +230,7 @@ const HomePageMenu = () => {
 
       p4Title: "Tuna Melt",
       p4Text:
-        "  Grilled bacon with lettuce and tomato  in a thick cut Sandwich with mayo",
+      "Flacked tuna, mayo,  melted cheese with hand cut chips",
       p4Price: " ",
 
       p5Title: "Sausage, Bacon or Cheese & Onion Cob ",

@@ -23,10 +23,10 @@ export default function Home() {
     <>
       {/* 1 */}
       <div className="overflow-hidden relative h-[1500px] lg:h-[1698px]  flex items-center justify-start  ">
-        <div className="absolute top-0 left-0 z-50 opacity-[0.2] h-[1500px] lg:h-[1698px] w-full bg-[#000] "></div>
+        <div className="absolute top-0 left-0 z-50 opacity-[0.5] h-[1500px] lg:h-[1698px] w-full bg-[#000] "></div>
         <img
           className="absolute top-0 left-0 h-[1500px] lg:h-[1698px] w-full"
-          src="/images/newImageforHero.png"
+          src="/images/foxhutHeroBg.png"
           alt=""
         />
         <div className="absolute z-50 top-[300px] lg:top-[500px] px-4 sm:px-0 sm:pl-[80px] lg:pl-[150px] xl:pl-[250px]">
@@ -45,14 +45,14 @@ export default function Home() {
             About Us
           </h2>
           <div className="w-full mt-6 px-6 grid grid-cols-1 gap-20 md:grid-cols-2 xl:grid-cols-3 lg:mt-20 lg:px-10">
-            <p className="font-popping  leading-[22px] tracking-wider 2xl:w-[498px] mx-auto text-[16px] text-[#fff]">
+            <p className="font-popping  leading-[28px] tracking-wider 2xl:w-[498px] mx-auto text-[16px] text-[#fff]">
             FoxHut Bar is a great Pub and Bar, Located on Welford Road.
-Few minutes away from Leicester Tigers and Kings Power stadium. it’s one of the most popular
+Few minutes away from Leicester Tigers and Kings Power stadium. It’s one of the most popular
 Spots in central Leicester. Foxhut Bar is a gastro pub Fit for breakfast, lunch and dinner. Thanks to classic British pub food alongside other International favourites. A buzzing atmosphere, well-stocked bar and
 Regular events. 
             </p>
 
-            <p className="font-popping  leading-[22px] tracking-wider 2xl:w-[498px] mx-auto text-[16px] text-[#fff]">
+            <p className="font-popping leading-[28px] tracking-wider 2xl:w-[498px] mx-auto text-[16px] text-[#fff]">
             Whether you just want to take the edge off and relax with a coffee
 Or go a bit crazy in the early hours, Foxhut Bar is the place to be.
 Serving classic foods, Starters, sides, main, steaks, dessert, Continental and lots more.
@@ -60,7 +60,7 @@ We also have Spirits, wines, champagne, Shots & Liqueurs, Cocktails and Soft dri
             </p>
 
 
-            <p className="font-popping leading-[22px] tracking-wider 2xl:w-[498px] mx-auto text-[16px] text-[#fff]">
+            <p className="font-popping leading-[28px] tracking-wider 2xl:w-[498px] mx-auto text-[16px] text-[#fff]">
             FoxHut Bar, is a place that has it all including Live Sports. Gaming Section with Pool
 Table, Football Table and Darts Board.
 Foxhut Bar can be free booked for Private Events, Office Meetings, interviews and trainings with projector available.
@@ -79,21 +79,60 @@ Foxhut Bar can be free booked for Private Events, Office Meetings, interviews an
               Weekly Activities
               </h4>
         </div>
-            <div className="">
-              <p className="dark:text-white text-[20px] mt-[20px] sm:mt-0 sm:text-[24px] sm:font-bold text-black ">
-              HAPPY HOUR – 5PM – 8PM <br className="" /> SHISHA: MON TO THUR 4PM – 10PM, FRIDAY/SATURDAY 4PM – 2AM
+        <div className="">
+          
+          
+          
+          <p className="dark:text-white text-[20px] mt-[20px] sm:mt-0 sm:text-[24px] sm:font-bold text-black ">
+          o Happy hours, Monday to Friday 5pm – 8pm
 
-                <br className=" " /> DJ NIGHT SATURDAY 9PM – 3AM
+
+              
 
 
-                <br className=" " />STUDENTS NIGHTS EVERY FRIDAYS. 8PM TILL LATE
+
 
 
                 
 
-              </p>
+          </p>
+
+          <p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">
+          o Shisha available, Monday to Thursday 4pm-10pm, Friday to Saturday 4pm-02am
+
+
+
+
+          </p>
+          <p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">
+          o Thursdays, Students Night
+
+
+          </p>
+
+          <p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">
+          o Fridays. Old Skool 80s -90s Night
+
+
+
+
+          </p>
+
               <p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">
-              GAMES – FOOTBALL TABLE, POOL TABLE, DARTS.
+              o Saturdays, Afrobeat Night
+
+
+
+          </p>
+          <p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">
+          o Everyday games. Pool Table, Football Table, Dartboar
+
+
+
+
+              </p><p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">
+              o Live Sports with Large projector screens
+
 
 
               </p>

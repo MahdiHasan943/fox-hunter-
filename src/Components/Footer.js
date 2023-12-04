@@ -41,65 +41,49 @@ const Footer = () => {
 
   return (
     <section>
-      <div className="fbg  gap-20 px-6 h-[670px]">
-        <div className="sm:w-[50%] lg:pt-[150px] lg:flex items-center justify-between mx-auto  ">
-          <div className="">
+      <div className="fbg  gap-20 px-6 h-[800px]">
+        <div className="sm:w-[100%] lg:pt-[150px] lg:flex items-center justify-between mx-auto  ">
+          <div className=" flex justify-center w-full">
             <div className="flex  items-center justify-between py-6  gap-4">
-              {/* <div className="bg-[#1DA1F2] rounded-md p-4">
-                {" "}
-                <a href="https://twitter.com/passion_blend?lang=en">
-                  <BsTwitter></BsTwitter>
-                </a>
-              </div>
-
-              <div className="bg-[#1877F2] rounded-md p-4">
-                <a href="https://www.facebook.com/passionblendbarleicester/">
-                  <BsFacebook></BsFacebook>
-                </a>
-              </div>
-
-              <div className="bg-[#F00073] rounded-md p-4">
-                {" "}
-                <a href="https://www.instagram.com/passionblendbar/?hl=en">
-                  <BsInstagram></BsInstagram>
-                </a>
-              </div> */}
+          
               <div className="lg:ml-[60px] xl:ml-[80px]">
                 <img className="py-4 w-[150px] h-[65px]" src="/../images/tntLogo.png" alt="" />
                 <img className="my-4 py-4 w-[150px] h-[65px]" src="/../Sky.png" alt="" />
               </div>
+
             </div>
           </div>
-          <div className="">
-            <p className="text-5xl text-center py-4 font-bold ">Opening Hours:</p>
-            <div className="text-3xl sm:text-1xl xl:text-3xl">
-              <div className="flex items-center gap-6 justify-center ">
-                <div className="">
-                  <p>      Monday – Wednesday </p>
-                  <p>Thursday –</p>
-                  <p>Friday – Saturday</p>
-                  {/* <p>Thursday</p>
-                  <p>  Friday  </p>
-                  <p> Saturday</p>
-                  <p>Sunday </p> */}
 
+
+
+
+          <div className="  flex justify-center w-full">
+            <div className="text-3xl sm:text-1xl xl:text-3xl">
+            <p className="text-5xl text-center py-4 font-bold ">          Opening hours: </p>
+
+              <div className="flex items-center justify-end gap-6  ">
+                <div className="font-popping leading-[30px]">
+                  <p>  · Monday to Wednesday 10:00-23:00 </p>
+                  <p>· Thursday 10:00-00:00</p>
+                  <p>· Friday to Saturday 10:00-03:00</p>
+                  <p>· Sunday 12:00-23:00
+</p>
+
+                  <p className="mt-[30px]">Kitchen Opening Hours
+</p>
+                  <p> · Monday to Wednesday 10:00-21:00
+  </p>
+                  <p> · Thursday 10:00-22:00
+</p>
+                  <p>· Friday to Saturday 10:00-23:00
+ </p>
+
+
+               <p>· Sunday Closed
+</p> 
+                </div>
 
                 
-                </div>
-
-                <div className="">
-
-                  <p>10:00 – 23:00
-</p>
-                  <p>10:00 – 00:00
-</p>
-                  <p>10:00 – 03:00</p>
-                  {/* <p>7:00 — 4:00</p>
-                  <p>7:00 — 4:00</p>
-                  <p>9:00 — 4:00</p>
-                  <p> 12:00 — 23:00</p> */}
-                  
-                </div>
               </div>
 
           
@@ -113,7 +97,7 @@ const Footer = () => {
           <div className="lg:flex mt-[-300px] justify-center">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d254.54883713510935!2d-1.1332147672234092!3d52.62944041288066!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877612ee07b5519%3A0xc1f6272bc2292594!2sFOXHUT%20BAR%20%26%20KITCHEN!5e0!3m2!1sen!2suk!4v1698604394027!5m2!1sen!2suk"
-              className="w-full h-[450px] border-0 sm:w-[628px] sm:h-[570px] "
+              className="w-full h-[450px] border-0 sm:w-[600px] sm:h-[550px] "
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
@@ -155,9 +139,9 @@ const Footer = () => {
                   <Link href={"/#event"}>Events </Link>
                 </p>
                 <p className="dark:text-white  text-black">
-                  <Link href={"/WineAndCoctail/WineAndCoctail"}>
+                  <Link href={"/WineAndCoctail/Drinks"}>
                    
-                    Wine <span className="hidden  sm:inline">& Coctailbar</span>
+                  Drinks
                   </Link>
                 </p>
                 <p className="dark:text-white  text-black">
@@ -166,14 +150,14 @@ const Footer = () => {
               </div>
             </div>
             <div className="mx-atuo text-center gap-2 sm:g	+44 20 1162 546 892ap-6 flex justify-center sm:justify-end">
-              <a target="_blank" href="https://wa.me/+4407466970736"  className="dark:text-white text-black text-[15px] sm:text-[20px]   sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
+              <a target="_blank" href="https://wa.me/+4407466970736"  className="dark:text-white text-black text-[15px] sm:text-[20px]  duration-300 delay-75 ease-linear  sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
               Order Online
               </a>
             
 
               <Popover>
               
-                <Popover.Button className="dark:text-white font-bold text-black  sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px]   text-[15px] sm:text-[20px]  px-8 sm:px-14 py-7 rounded-2xl bookNow  outline-none focus:outline-none ">
+                <Popover.Button className="dark:text-white font-bold text-black   sm:my-0  bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px]   text-[15px] sm:text-[20px]  px-8 sm:px-14 py-7 rounded-2xl bookNow  outline-none focus:outline-none ">
                   Reserve Seating
                 </Popover.Button>
                 <Popover.Panel className="formBg rounded-md absolute py-10 left-0 sm:left-[20%] top-[15%]  md:top-[30%] lg:left-[30%] 2xl:left-[40%]  lg:top-[-10%] z-[10000] ">

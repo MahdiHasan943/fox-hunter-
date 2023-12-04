@@ -76,7 +76,9 @@ const BottledBeers = () => {
                           />
                           
                           
-                        </div>
+            </div>
+            
+    
             
             {/* 5 */}
             <div className="">
@@ -92,7 +94,23 @@ const BottledBeers = () => {
                           />
                           
                           
-                        </div>                                   
+            </div>       
+            
+
+            <div className="py-20">
+                          <div className="flex justify-between px-2">
+                            <p className="MDPText dark:text-white text-black ">
+                          	 	Estrella		                          </p>
+                            <p className="MDPText text-[#B5986D]"></p>
+                          </div>
+                          <img
+                            className="py-2 w-full"
+                            src="../MDLine.png"
+                            alt=""
+                          />
+                          
+                          
+                        </div>
                        
                       </div>
                     </div>
