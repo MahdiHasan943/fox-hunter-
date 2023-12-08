@@ -31,7 +31,7 @@ export default function Home() {
           alt=""
         /> */}
         <img
-          className="  mx-auto"
+          className="h-[600px] sm:h-auto  mx-auto"
           src="/images/foxhutHeroBg1.png"
           alt=""
         />
