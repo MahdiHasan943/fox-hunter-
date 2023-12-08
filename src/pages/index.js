@@ -31,8 +31,8 @@ export default function Home() {
           alt=""
         /> */}
         <img
-          className=" h-[1500px]  mx-auto"
-          src="/images/foxhutHeroBg.png"
+          className="  mx-auto"
+          src="/images/foxhutHeroBg1.png"
           alt=""
         />
         </div>
