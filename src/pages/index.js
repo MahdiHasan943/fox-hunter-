@@ -22,16 +22,16 @@ export default function Home() {
   return (
     <>
       {/* 1 */}
-      <div className="overflow-hidden relative h-[1500px]  flex items-center justify-start  ">
+      <div className="overflow-hidden relative h-[1500px] lg:h-[1698px]  flex items-center justify-start  ">
         <div className="absolute top-0 left-0 z-50 opacity-[0.5] h-[1500px] lg:h-[1698px] w-full bg-[#000] "></div>
-        <div className="absolute w-full h-full top-0 left-0">
+        <div className="absolute w-full top-0 left-0">
         {/* <img
           className=" h-[1500px] lg:h-[1698px] mx-auto"
           src="/images/foxhutHeroBg.png"
           alt=""
         /> */}
         <img
-          className="h-[600px] sm:h-[100%]  mx-auto"
+          className="h-[600px] sm:h-[1050px]  mx-auto"
           src="/images/foxhutHeroBg1.png"
           alt=""
         />
