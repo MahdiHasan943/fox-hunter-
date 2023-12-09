@@ -31,7 +31,7 @@ export default function Home() {
           alt=""
         /> */}
         <img
-          className="h-[600px] w-full sm:h-[1050px]  mx-auto"
+          className="h-[600px]  w-full sm:w-auto lg:h-[1050px] 2xl:h-[1749px]  mx-auto"
           src="/images/foxhutHeroBg1.png"
           alt=""
         />
