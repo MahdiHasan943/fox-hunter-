@@ -24,22 +24,17 @@ export default function Home() {
       {/* 1 */}
       <div className="overflow-hidden relative h-[1500px] lg:h-[1698px]  flex items-center justify-start  ">
         <div className="absolute top-0 left-0 z-50 opacity-[0.5] h-[1500px] lg:h-[1698px] w-full bg-[#000] "></div>
-        <div className="absolute w-full  h-full top-0 left-0 bg-cover bg-center bg-no-repeat" style={{backgroundImage:'url(/images/foxhutHeroBg2.png)'}}>
+        <div className="absolute w-full top-0 left-0">
         {/* <img
           className=" h-[1500px] lg:h-[1698px] mx-auto"
           src="/images/foxhutHeroBg.png"
           alt=""
         /> */}
-        {/* <img
-          className="h-[600px]  w-full  lg:h-[1100px] 2xl:h-[1350px]  mx-auto"
+        <img
+          className="h-[600px] w-full  md:h-[1500px] lg:h-[1698px]  mx-auto"
           src="/images/foxhutHeroBg2.png"
           alt=""
-          /> */}
-           {/* <img
-          className="h-[200px]  w-full lg:h-[900px] 2xl:h-[850px]  mx-auto"
-          src="/images/foxhutHeroBg1.png"
-          alt=""
-        /> */}
+        />
         </div>
        
         <div className="absolute z-50 top-[300px] lg:top-[500px] px-4 sm:px-0 sm:pl-[80px] lg:pl-[150px] xl:pl-[250px]">
