@@ -183,7 +183,7 @@ const Menu = () => {
             </div>
           </div>
           {/* 9 */}
-          <div className="px-10 ">
+          {/* <div className="px-10 ">
             <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
                 className="w-full mx-auto     h-[460px]  sm:h-[514px] "
@@ -201,7 +201,7 @@ const Menu = () => {
                 View menu
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
