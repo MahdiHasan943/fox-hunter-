@@ -71,7 +71,17 @@ const RoomSlide = () => {
           <section id="slider-2">
             <div className="container wide">
               <div className="swiper" id="swiper-2">
-                <div className="swiper-wrapper">
+                  <div className="swiper-wrapper">
+                  <div className="swiper-slide">
+                    <figure className='relative'>
+                    <iframe  src="./images/fox_v.mp4" ></iframe>
+                                          <div className="absolute w-full top-0 left-0 py-4 flex justify-center">
+                                          {/* <p className="  font-popping  lg:text-[30px] font-bold text-white text-center">FOX HUT SHISHA GARDEN</p> */}
+
+                                          </div>
+                    
+                    </figure>
+                  </div>
                   <div className="swiper-slide">
                     <figure className='relative'>
                                           <img className='lg:h-[955px]' src="./images/foxhutslide1.png" alt="Marbella, Spain" />
@@ -85,7 +95,10 @@ const RoomSlide = () => {
                         Marbella, Spain
                       </figcaption> */}
                     </figure>
-                  </div>
+                    </div>
+                    
+                   
+
                   <div className="swiper-slide">
                     <figure className='relative'>
                                           <img src="./images/foxhutslide2.png" alt="Sevilla, Spain" />
@@ -125,16 +138,7 @@ const RoomSlide = () => {
                       </figcaption> */}
                     </figure>
                   </div>
-                  <div className="swiper-slide">
-                    <figure className='relative'>
-                    <iframe  src="./images/fox_v.mp4" ></iframe>
-                                          <div className="absolute w-full top-0 left-0 py-4 flex justify-center">
-                                          {/* <p className="  font-popping  lg:text-[30px] font-bold text-white text-center">FOX HUT SHISHA GARDEN</p> */}
-
-                                          </div>
-                    
-                    </figure>
-                  </div>
+                
                   <div className="swiper-slide">
                     <figure className='relative'>
                                           <img src="./images/foxhutslide3.png" alt="Cala S'Almunia in Mallorca, Spain" />
@@ -147,7 +151,7 @@ const RoomSlide = () => {
                         Cala S'Almunia in Mallorca, Spain
                       </figcaption> */}
                     </figure>
-                  </div>
+                  </div>     
                 </div>
                 <div class="swiper-custom-nav">
                         <svg id="nav-left" width="64" height="64" viewBox="0 0 64 64" id="nav-left" fill="none" xmlns="http://www.w3.org/2000/svg">
