@@ -128,7 +128,7 @@ const ImageSlide = () => {
                           <div className="  h-[100vh]" style={{ transform: `scale(${childScale})`, width: elementSize, transformOrigin: '0 0' }}>
                             <img className="h-[250px]       sm:h-[547px] w-full"                   src={slidesImage?.imgL} alt="" />
                             <div className="mt-20 flex justify-center sm:mt-[50px]">
-                            <a href="https://www.eventbrite.co.uk/o/passion-blend-amp-hindbar-18035984270"  className="text-white  text-[15px] sm:text-[20px]   sm:my-0 hover:bg-[#B5986D]    border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">Book Event</a>
+                            <a href="https://www.eventbrite.co.uk/o/foxhutbar-events-72325085303"  className="text-white  text-[15px] sm:text-[20px]   sm:my-0 hover:bg-[#B5986D]    border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">Book Event</a>
 
                             </div>
                           </div>
@@ -158,7 +158,7 @@ const ImageSlide = () => {
                         <div className="  h-[100vh]" style={{ transform: `scale(${childScale})`, width: elementSize, transformOrigin: '0 0' }}>
                           <img className=" h-[250px]       sm:h-[547px] w-full" src={slidesImage?.imgM} alt="" />
                           <div className="mt-20 flex justify-center sm:mt-[50px]">
-                          <a  href="https://www.eventbrite.co.uk/o/passion-blend-amp-hindbar-18035984270" className="text-white  text-[15px] sm:text-[20px]   sm:my-0 hover:bg-[#B5986D]    border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">Book Event</a>
+                          <a  href="https://www.eventbrite.co.uk/o/foxhutbar-events-72325085303" className="text-white  text-[15px] sm:text-[20px]   sm:my-0 hover:bg-[#B5986D]    border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">Book Event</a>
 
                           </div>
                         </div>
@@ -188,7 +188,7 @@ const ImageSlide = () => {
                         <div className=" mt-[-50px] h-[100vh]" style={{ transform: `scale(${childScale})`, width: elementSize, transformOrigin: '0 0' }}>
                           <img className="h-[250px]       sm:h-[547px] w-full "  src={slidesImage?.imgR} alt="" />
                           <div className="mt-20 flex justify-center sm:mt-[50px]">
-                          <a href="https://www.eventbrite.co.uk/o/passion-blend-amp-hindbar-18035984270" className="text-white  text-[15px] sm:text-[20px]   sm:my-0 hover:bg-[#B5986D]    border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">Book Event</a>
+                          <a href="https://www.eventbrite.co.uk/o/foxhutbar-events-72325085303" className="text-white  text-[15px] sm:text-[20px]   sm:my-0 hover:bg-[#B5986D]    border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">Book Event</a>
 
                           </div>
                         </div>

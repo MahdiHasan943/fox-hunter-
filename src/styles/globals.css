@@ -376,6 +376,12 @@ p.intro {
   object-fit: cover;
 }
 
+.swiper-slide iframe {
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+
 .swiper-slide figure {
   position: relative;
   margin: 0;
@@ -499,6 +505,10 @@ p.intro {
 @media screen and (max-width: 800px) {
   .swiper-slide img {
       height: 30rem!important;
+  }
+  .swiper-slide iframe {
+    height: 30rem!important;
+ 
   }
 
   .swiper-slide figcaption {
