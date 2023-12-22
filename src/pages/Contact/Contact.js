@@ -11,10 +11,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_61ya5o4",
-        "template_n1c3ucd",
+        "service_l2ka69u",
+        "template_fwlitj7",
         form.current,
-        "ZerahYNpS_PwWoB6n"
+        "h6sESimtLxgfYoC2K"
       )
       .then(
         (result) => {
@@ -40,7 +40,7 @@ const Contact = () => {
               Contact Us
             </h1>
 
-            <form ref={form} action="">
+            <form onSubmit={sendEmail} ref={form} action="">
               <div className="py-20">
                 <input
                   type="text"

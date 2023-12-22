@@ -19,10 +19,10 @@ const Footer = () => {
 
     emailjs
       .sendForm(
-        "service_61ya5o4",
-      "template_rk5020a",
+        "service_l2ka69u",
+      "template_nzajxdw",
         form.current,
-        "ZerahYNpS_PwWoB6n"
+        "h6sESimtLxgfYoC2K"
       )
       .then(
         (result) => {
@@ -165,7 +165,7 @@ const Footer = () => {
                     <Popover.Button className="focus:border-none btn-border-none  outline-none focus:outline-none border-none">
                       <BsXLg className="absolute right-10 top-5 text-white text-end text-[25px]"></BsXLg>
                     </Popover.Button>
-                    <form ref={form}  action="" className="w-full ">
+                    <form onSubmit={sendEmail} ref={form}  action="" className="w-full ">
                       <h2 className="text-white font-bold  text-center text-[40px] leading-[50px]">
                         Make a Reservation
                       </h2>
